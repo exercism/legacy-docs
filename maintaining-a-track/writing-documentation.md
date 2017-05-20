@@ -46,7 +46,8 @@ The mapping of topics to filenames goes like this:
 
 Any images referenced in the markdown files need to live within the `docs/img` directory. If the directory doesn't exist, you can create it when you need it.
 
-Use the relative path to this directory when referring to the images in the markdown. E.g., if you have an image named `docs/img/dropdown.png`, then you would reference it with:
+When referring to the images in the markdown, use a path starting with `/docs` (note the slash)
+E.g., if you have an image named `docs/img/dropdown.png`, then you would reference it with:
 
 ```
 ![](/docs/img/dropdown.png)

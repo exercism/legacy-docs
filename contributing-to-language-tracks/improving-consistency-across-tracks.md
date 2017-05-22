@@ -19,8 +19,54 @@ Once we've found a good set of tests, we formalize the inputs and outputs and
 store it in a file called `canonical-data.json` alongside the language-agnostic
 problem description in the [x-common][] repository.
 
-Some things vary from language to language, so don't feel constrained to
-implementing exactly what is in the `canonical-data.json` file.
+This makes it easier to port the exercises to new language tracks, as well as
+propogate changes to the exercises that have already been implemented in
+many tracks.
+
+## Extracting Canonical Test Data
+
+Each of the exercises in the [common pool of exercises][x-common-exercises] can have a
+`canonical-data.json` file alongside the other files defining the exercise:
+
+```
+exercises/<slug>/
+├── canonical-data.json
+├── description.md
+└── metadata.yml
+```
+
+This JSON file should contain the generic (i.e. language independent) test data for that exercise.
+
+There are [open issues][canonical-data-issues] for all of the exercises that are missing canonical data.
+The open issue has a link to a page that contains an up-to-date list of all the language tracks that
+have implemented the exercise, as well as links to view the implementations.
+
+Open each implementation in a separate browser tab. Navigate to the test files and read through the tests.
+Look for test cases that all/many of the languages have in common and identify outliers that only appear in one or two languages.
+
+Based on your findings, decide on a sensible set of test cases.
+
+Here are some considerations that may help:
+
+* Try to stick to test cases that already occur in many languages so it is feasible for the track maintainers to adapt to the canonical set.
+* All tests should be essential to the problem. Ensure people can get the first test passing easily. Then each following test should ideally add a little functionality. People should be able to solve the problem a little at a time. Avoid test cases that don't introduce any new aspect and would already pass anyway.
+* The test cases should not require people to follow one very specific way to solve the problem, e.g. the tests should avoid checking for helper functions that might not be present in other implementations.
+* Performance tests should not be included in the canonical test data.
+
+Once you've decided on a set of test cases, create the `canonical-data.json` file following the guidelines in [x-common's README][data-format-docs].
+
+If you are unsure about any of the considerations make a pull request with an initial proposal and ask the community for help.
+
+## Using Canonical Data to Implement Exercises
+
+When porting an exercise to a language track, the canonical data file
+makes it easy to select and implement test cases.
+
+If the track uses test generators (check the README), then you may want to
+write a generator rather than hand-code the test suite.
+
+Some things vary from language to language, so don't feel constrained
+to implementing exactly what is in the `canonical-data.json` file.
 
 ## Evolving Exercises
 
@@ -71,3 +117,7 @@ descriptive. It should contain the slug of the relevant exercise.
 
     $ blazon -exercise=<slug> -file=<filename>
 
+
+[x-common-exercises]: https://github.com/exercism/x-common/tree/master/exercises
+[canonical-data-issues]: https://github.com/exercism/x-common/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22cross-track%20consistency%22%20canonical-data.json
+[data-format-docs]: https://github.com/exercism/x-common#test-data-format-canonical-datajson

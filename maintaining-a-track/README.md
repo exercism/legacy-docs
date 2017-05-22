@@ -93,8 +93,8 @@ In addition to the language track repository itself, you may also want to watch:
 
 - [Triage issues](/maintaining-a-track/triaging-issues.md)
 - [Review and merge pull requests](/maintaining-a-track/reviewing-a-pull-request.md)
-- [Add and improve language-specific documentation](maintaining-a-track/writing-documentation.md)
+- [Add and improve language-specific documentation](/maintaining-a-track/writing-documentation.md)
 - Discuss improvements in the exercises
 - Implement or [port](/contributing-to-language-tracks/porting-an-exercise.md) new exercises
 - Improve the development tooling (e.g. implementing continuous integration)
-- Recognize helpful contributions and [invite new maintainers](maintaining-a-track/inviting-new-maintainers.md)
+- Recognize helpful contributions and [invite new maintainers](/maintaining-a-track/inviting-new-maintainers.md)

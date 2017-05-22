@@ -17,38 +17,39 @@
 [ref-problem-starting]: #i-see-a-problem-getting-started-with-a-language
 [ref-problem-exercise]: #i-see-a-problem-with-a-specific-exercise
 
+
 | [on the website][ref-problem-site] | [with the command-line client (CLI)][ref-problem-cli] | [getting started with a language][ref-problem-starting] | [with a specific exercise][ref-problem-exercise] |
 |:---:|:---:|:---:|:---:|
 | [<img alt="I see a problem on the website" src="https://cdn.rawgit.com/primer/octicons/master/lib/svg/globe.svg" height="100" />][ref-problem-site] | [<img alt="I see a problem with the CLI" src="https://cdn.rawgit.com/primer/octicons/master/lib/svg/tools.svg" height="100" />][ref-problem-cli] | [<img alt="I see a problem getting started with a language" src="https://cdn.rawgit.com/primer/octicons/master/lib/svg/mortar-board.svg" height="100" />][ref-problem-starting] | [<img alt="I see a problem with a specific exercise" src="https://cdn.rawgit.com/primer/octicons/master/lib/svg/file-code.svg" height="100" />][ref-problem-exercise] |
 
 ### I see a problem on the website
 
-* If you're having trouble figuring out how to do something on the website, jump in the [online support chat](https://gitter.im/exercism/support) and ask there.
-- Check [`exercism/exercism.io`](https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3Abug)'s repo for bugs; and while we might know there's an issue, any additional details sometimes can help.
-- If the website has a bug, you can help by [filing a bug report](docs/filing-a-bug-report.md) in the [`exercism/exercism.io` repository](https://github.com/exercism/exercism.io/issues/new).
-  - if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-know--want-to-get-better-at-web-programming).
+* If you're having trouble figuring out how to do something on the website, jump in the [online support chat][chat] and ask there.
+- Check [`exercism/exercism.io`][exercism-bugs]'s repo for bugs; and while we might know there's an issue, any additional details sometimes can help.
+- If the website has a bug, you can help by [filing a bug report][filing-bug] in the [`exercism/exercism.io` repository][exercism-new-issue].
+  - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-web].
 
 ### I see a problem with the command-line client (CLI)
 
-* If you're having trouble installing or working with the CLI, ask for help in our [online support chat](https://gitter.im/exercism/support).
-- It may be a reported/known bug; check [`exercism/cli`](https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+label%3Abug)'s repo for bugs.
-- If the CLI has a bug, you can help by [filing a bug report](docs/filing-a-bug-report.md) in the [`exercism/cli` repository](https://github.com/exercism/cli/issues/new).
-  - if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-know--want-to-get-better-at-go).
+* If you're having trouble installing or working with the CLI, ask for help in our [online support chat][chat].
+- It may be a reported/known bug; check [`exercism/cli`][cli-bugs]'s repo for bugs.
+- If the CLI has a bug, you can help by [filing a bug report][filing-bug] in the [`exercism/cli` repository][cli-new-issue].
+  - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-go].
 
 ### I see a problem getting started with a language
 
-* If you're having trouble with the setup instructions, ask for help in our [online support chat](https://gitter.im/exercism/support).
-- If you see a problem with the setup instructions, you can help by [filing a bug report](docs/filing-a-bug-report.md) in the "Issues" section of the [corresponding language repository](http://exercism.io/repositories).
-  - if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-can--want-to-get-better-at-organizing-stuff).
+* If you're having trouble with the setup instructions, ask for help in our [online support chat][chat].
+- If you see a problem with the setup instructions, you can help by [filing a bug report][filing-bug] in the "Issues" section of the [corresponding language repository][track-repos].
+  - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
 
 ### I see a problem with a specific exercise
 
-* If a particular exercise is giving you grief, ask for help in our [online support chat](https://gitter.im/exercism/support).
+* If a particular exercise is giving you grief, ask for help in our [online support chat][chat].
 - If there's a defect in the...
-  - **instructions** of the exercise, you can make a difference by [filing a bug report](docs/filing-a-bug-report.md) in the [`exercism/x-common` repository](https://github.com/exercism/x-common/issues/new).
-    - if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-can--want-to-get-better-at-organizing-stuff).
-  - **tests** or **starter code** of the exercise, you can help by [filing a bug report](docs/filing-a-bug-report.md) in the "Issues" section of the [corresponding language repository](http://exercism.io/repositories).
-    - if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-am-fluent-in--want-to-get-better-at-a-particular-programming-language).
+  - **instructions** of the exercise, you can make a difference by [filing a bug report][filing-bug] in the [`exercism/x-common` repository][x-common-new-issue].
+    - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
+  - **tests** or **starter code** of the exercise, you can help by [filing a bug report][filing-bug] in the "Issues" section of the [corresponding language repository][track-repos].
+    - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
 - You can ask for help within the track:
   1. `exercism submit` the code you have;
   -  Follow the link that the CLI returns to view your new submission on the website;
@@ -71,37 +72,20 @@
 
 ### I have an idea about making the website better
 
-Is it around a portion of the site we're currently talking about?  Jump in!
-
-Current specific discussions:
-
-* User experience: [`exercism/discussions#34`](https://github.com/exercism/discussions/issues/34),
-- solutions page: [`exercism/discussions#32`](https://github.com/exercism/discussions/issues/32),
-
-Here are some helpful starter searches in the two repositories that contain ideas about the website:
-
-* the home page: [`exercism/discussions?homepage`](https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+homepage+sort%3Aupdated-desc) / [`exercism/exercism.io?homepage`](https://github.com/exercism/exercism.io/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20homepage+sort%3Aupdated-desc),
-- user's dashboard: [`exercism/discussions?dashboard`](https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+dashboard+sort%3Aupdated-desc) / [`exercism/exercism.io?dashboard`](https://github.com/exercism/exercism.io/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20dashboard%20+sort%3Aupdated-desc),
-- user's profile page: [`exercism/discussions?profile`](https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+profile+sort%3Aupdated-desc) / [`exercism/exercism.io?profile`](https://github.com/exercism/exercism.io/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20profile%20+sort%3Aupdated-desc),
-- user's account page: [`exercism/discussions?account`](https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+account+sort%3Aupdated-desc) / [`exercism/exercism.io?account`](https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+account+sort%3Aupdated-desc).
-
-If the idea doesn't fit in one of those discussions, then if it relates to:
-
-* a specific part of the site, start a new conversation in the [`exercism/exercism.io` repository](https://github.com/exercism/exercism.io/issues/new).
-- multiple aspects of the site, kick it off in the [`exercism/discussions` repository](https://github.com/exercism/discussions/issues/new).
+We're currently working with professional user experience designers on rethinking the entire experience from scratch. Check out the [roadmap][] for more details about this.
 
 ### I have an idea about improving the command-line client (CLI)
 
 Current specific discussions:
 
-* Overall user experience with the CLI: [`exercism/discussions#35`](https://github.com/exercism/discussions/issues/35).
+* Overall user experience with the CLI: [`exercism/discussions#129`][discussion-cli-ux].
 
 Here are some helpful starter searches in the two repositories that contain ideas about the CLI:
 
-* [`exercism/cli?`](https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
-- [`exercism/discussions?cli`](https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+cli+sort%3Aupdated-desc)
+* [`exercism/cli`][cli-issues]
+- [`exercism/discussions?cli`][discussions-cli]
 
-If the idea isn't being discussed yet, kick it off in the [`exercism/cli` repository](https://github.com/exercism/cli/issues/new).
+If the idea isn't being discussed yet, kick it off in the [`exercism/cli` repository][cli-new-issue].
 
 ### I have an idea about a brand-new exercise for Exercism
 
@@ -111,18 +95,18 @@ New exercise ideas are definitely welcome!  Here's how to ensure the idea lands 
 
 - Check to see if the exercise is listed: https://github.com/exercism/x-common/tree/master/exercises.
   - If it is there, but not in the language you'd like to solve it in, put in a request in that particular language's repository: http://exercism.io/repositories.
-    - if you have the time and the desire, you can help *even more* by [implementing it](#-fluency-in-a-particular-programming-language).
-  - If it is not there, suggest it in [`exercism/x-common`](https://github.com/exercism/x-common/issues/new).
-    - if you have the time and the desire, you can help *even more* by [implementing it](https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md#implementing-a-completely-new-exercise).
-- If you know of a good source of potential new problems, please share: [`exercism/x-common#107`](https://github.com/exercism/x-common/issues/107).
+    - if you have the time and the desire, you can help *even more* by [implementing it][ref-help-track].
+  - If it is not there, suggest it in [`exercism/x-common`][x-common-new-issue].
+    - if you have the time and the desire, you can help *even more* by [implementing it][how-to-new-exercise].
+- If you know of a good source of potential new problems, please share: [`exercism/x-common#107`][issue-exercise-ideas].
 
 ### I have an idea about improving an existing exercise
 
 - If the idea is to improve the...
-  - **instructions** of the exercise, you can make a difference by making the suggestion in the [`exercism/x-common` repository](https://github.com/exercism/x-common/issues/new).
-    - if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-can--want-to-get-better-at-organizing-stuff).
-  - **tests** or **starter code** of the exercise, you can help by making the suggestion in the "Issues" section of the [corresponding language repository](http://exercism.io/repositories).
-    -  if you have the time and the desire, you can help *even more* by [fixing it](#i-would-like-to-help-i-am-fluent-in--want-to-get-better-at-a-particular-programming-language).
+  - **instructions** of the exercise, you can make a difference by making the suggestion in the [`exercism/x-common` repository][x-common-new-issue].
+    - if you have the time and the desire, you can help *even more* by [fixing it][how-to-exercise-readmes].
+  - **tests** or **starter code** of the exercise, you can help by making the suggestion in the "Issues" section of the [corresponding language repository][track-repos].
+    -  if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
 
 ----
 
@@ -135,6 +119,7 @@ New exercise ideas are definitely welcome!  Here's how to ensure the idea lands 
 [ref-help-go]: #i-would-like-to-help-i-know--want-to-get-better-at-go
 [ref-help-design]: #i-would-like-to-help-i-know--want-to-get-better-at-web-design
 [ref-help-mentoring]: #i-would-like-to-help-i-know--want-to-get-better-at-mentoring-others
+[ref-help-organizing]: #i-would-like-to-help-i-can--want-to-get-better-at-organizing-stuff
 
 | [with technical writing and organization][ref-help-docs] | [with a particular programming language][ref-help-track] | [with web programming][ref-help-web] | [with development in Ruby][ref-help-ruby] | [with development in Go][ref-help-go] | [with web design][ref-help-design] | [by mentoring others][ref-help-mentoring]
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -142,9 +127,10 @@ New exercise ideas are definitely welcome!  Here's how to ensure the idea lands 
 
 ### I would like to help; I can / want to get better at technical writing and organization
 
-- Find discussions about ways we'd like to improve our documentation: [`exercism/discussions?documentation`](https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+documentation+sort%3Aupdated-desc)
-- Help make the instructions of an exercise more clear, interesting and/or engaging by locating that exercise in [`exercism/x-common`](https://github.com/exercism/x-common/tree/master/exercises) and [Tweaking its README.md](https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md#tweaking-a-readme).
-- Issues across all of Exercism looking for help with documentation: [`exercism?documentation`](https://github.com/search?o=desc&p=1&q=org%3Aexercism+documentation+is%3Aissue&ref=searchresults&s=updated&state=open&type=Issues&utf8=%E2%9C%93)
+- Find discussions about ways we'd like to improve our documentation: [`exercism/discussions?documentation`][discussions-docs]
+- Check out the [open issues][docs-issues] in the docs repository
+- Help make the instructions of an exercise more clear, interesting and/or engaging by [tweaking its README.md][how-to-exercise-readmes].
+- Issues across all of Exercism looking for help with documentation: [`exercism?documentation`][org-issues-docs]
 
 ### I would like to help; I am fluent in / want to get better at a particular programming language
 
@@ -152,71 +138,99 @@ Are you a language enthusiast?  Help other people fall in love with your languag
 
 #### Mentoring Others
 
-- Give feedback on other's submissions in your [Activity Stream](http://exercism.io/inbox).
-- Help others get unstuck in the [support chat](https://gitter.im/exercism/support).
-- However you support others, aim to do it [The Exercism Way](docs/the-exercism-way.md).
+- Give feedback on other's submissions in your [activity stream][activity-stream].
+- Help others get unstuck in the [support chat][chat].
+- However you support others, aim to do it [the Exercism way][providing-feedback].
 
 #### Contributing to a Language Track
 
 This means helping maintain the code of the exercises and supporting tooling for a particular language.
 
 - Find a language you love or want to get to know better: http://exercism.io/repositories
-- Orient yourself through our [Getting Involved in a Track] (docs/getting-involved-in-a-track.md) guide.
+- Orient yourself through our [Getting Involved in a Track][contributing-tracks] guide.
 
 ### I would like to help; I know / want to get better at web programming
 
 Do you have/want to have chops in HTML+CSS+JavaScript/CoffeeScript and want to improve the feel and function of the Exercism website?
 
-1. [Setup your local development environment](docs/setting-up-local-development.md).
+1. [Setup your local development environment][io-local-env].
 -  Locate a feature/bug to work on:
-   - [`exercism/exercism.io?label:good first patch`](https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+patch%22)
-   - [`exercism/exercism.io?label:bug`](https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
--  Work the issue: [the contribution workflow](docs/the-contribution-workflow.md).
+   - [`exercism/exercism.io?label:good first patch`][exercism-good-first-patch]
+   - [`exercism/exercism.io?label:bug`][exercism-bug]
+-  Work the issue: [the contribution workflow][contribution-workflow].
 
 You may also find these helpful:
 
-- [Architecture Overview of Exercism](docs/overview-architecture.md)
+- [Architecture Overview of Exercism][overview-architecture]
 
 
 ### I would like to help; I know / want to get better at Ruby
 
 Do you have/want to have chops in Ruby or Sinatra and want to add to the website?
 
-1. [Setup your local development environment](docs/setting-up-local-development.md).
+1. [Setup your local development environment][io-local-env].
 -  Locate a feature/bug to work on:
-   - [`exercism/exercism.io?label:good first patch`](https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+patch%22)
-   - [`exercism/exercism.io?label:bug`](https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
--  Work the issue: [the contribution workflow](docs/the-contribution-workflow.md).
+   - [`exercism/exercism.io?label:good first patch`][exercism-good-first-patch]
+   - [`exercism/exercism.io?label:bug`][exercism-bug]
+-  Work the issue: [the contribution workflow][contribution-workflow].
 
 You may also find these helpful:
 
-- [Architecture Overview of Exercism](docs/overview-architecture.md)
+- [Architecture Overview of Exercism][overview-architecture]
 
 
 ### I would like to help; I know / want to get better at Go
 
 One of the more subtle but important parts of the Exercism experience is our CLI; it's written in Go.
 
-1. Setup your local development environment for the CLI: [`exercism/cli`](https://github.com/exercism/cli).
--  Locate a feature/bug to work on: [`exercism/cli?`](https://github.com/exercism/cli/issues)
--  Work the issue: [the contribution workflow](docs/the-contribution-workflow.md).
+1. Setup your local development environment for the CLI: [`exercism/cli`][cli-repo]
+-  Locate a feature/bug to work on: [`exercism/cli`][cli-issues]
+-  Work the issue: [the contribution workflow][contribution-workflow].
 
 You may also find these helpful:
 
-- [Architecture Overview of Exercism](docs/overview-architecture.md)
+- [Architecture Overview of Exercism][overview-architecture]
 
 ### I would like to help; I know / want to get better at web design
 
-Do you love making enticing user experiences?  Help us [rethink our user experience](https://github.com/exercism/discussions/issues/34) (UX)!
+Do you love making enticing user experiences? We're working with UX professionals on rethinking the entire Exercism experience.
+We're going to be sharing our discoveries and designs in the coming months.
 
-* the [profile](https://github.com/exercism/discussions/search?q=profile&state=open&type=Issues) or [account](https://github.com/exercism/discussions/search?q=account&state=open&type=Issues) pages.
-- the [dashboard](https://github.com/exercism/discussions/search?q=dashboard&state=open&type=Issues).
-- the [homepage](https://github.com/exercism/discussions/search?q=homepage&state=open&type=Issues).
-- the [solutions page](https://github.com/exercism/discussions/issues/32).
+To hear about it when we're ready for input, feedback, thoughts, and opinions, watch the [discussions repository][discussions-repo].
 
 ### I would like to help; I know / want to get better at mentoring others
 
 Do you like mentoring people?
 
-* Hang out in the support chat [support chat](https://gitter.im/exercism/support), or
-* submit an exercise so you can [give feedback to people who have submitted it, too](http://exercism.io/inbox).
+* Hang out in the support chat [support chat][chat], or
+* submit an exercise so you can [give feedback to people who have submitted it, too][activity-stream].
+
+
+[chat]: https://gitter.im/exercism/support
+[filing-bug]: misc/filing-a-bug-report.md
+[feedback]: misc/providing-feedback.md
+[contributing-tracks]: contributing-to-language-tracks/README.md
+[io-local-env]: https://github.com/exercism/exercism.io/blob/master/docs/setting-up-local-development.md
+[contribution-workflow]: https://github.com/exercism/exercism.io/issues/3252
+[overview-architecture]: misc/overview-architecture.md
+[exercism-bugs]: https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3Abug
+[exercism-new-issue]: https://github.com/exercism/exercism.io/issues/new
+[cli-bugs]: https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+label%3Abug
+[cli-new-issue]: https://github.com/exercism/cli/issues/new
+[track-repos]: http://exercism.io/repositories
+[common-new-issue]: https://github.com/exercism/x-common/issues/new
+[discussions-new-issue]: https://github.com/exercism/discussions/issues/new
+[roadmap]: roadmap.md
+[discussion-cli-ux]: https://github.com/exercism/discussions/issues/129
+[cli-issues]: https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+[discussions-cli]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+cli+sort%3Aupdated-desc
+[how-to-new-exercise]: https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md#implementing-a-completely-new-exercise
+[issue-exercise-ideas]: https://github.com/exercism/x-common/issues/107
+[how-to-exercise-readmes]: https://github.com/exercism/docs/blob/master/contributing-to-language-tracks/fixing-exercise-readmes.md
+[discussions-docs]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+documentation+sort%3Aupdated-desc
+[docs-issues]: https://github.com/exercism/docs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+[org-issues-dogs]: https://github.com/search?o=desc&p=1&q=org%3Aexercism+documentation+is%3Aissue&ref=searchresults&s=updated&state=open&type=Issues&utf8=%E2%9C%93
+[activity-stream]: http://exercism.io/inbox
+[exercism-good-first-patch]: https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+patch%22
+[cli-repo]: https://github.com/exercism/cli
+[discussions-repo]: https://github.com/exercism/discussions

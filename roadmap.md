@@ -2,10 +2,7 @@
 
 [design-of-exercism]: http://tinyletter.com/exercism/letters/the-delightful-design-of-exercism
 
-Exercism can be seen as two quite distinct projects:
-
-1. The Product
-2. The Curriculum
+We have two separate roadmaps, one for the overall product, and one for the curriculum, which encompasses all of the exercises for all of the supported programming languages.
 
 ## The Product
 

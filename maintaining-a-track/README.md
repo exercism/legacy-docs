@@ -73,6 +73,11 @@ Maintaining a track is so much more fun and interesting when there are several p
 Even with full push access, **create pull requests**. This notifies the other maintainers about the change.
 As a general rule, ensure a fellow maintainer reviews your pull request, unless it is utterly trivial.
 
+When you start working on an issue, claim it either by assigning it to yourself or by adding a comment that you're taking it.
+This avoids having several people do the same work by accident.
+
+If you have a big list of similar, related things, consider [generating individual issues](https://github.com/exercism/docs/issues/10) for each one so that people can claim individual tasks easily.
+
 ## Day-to-Day Tactics
 
 ### Watch Key Repositories
@@ -87,4 +92,9 @@ In addition to the language track repository itself, you may also want to watch:
 ### Perform Common Tasks
 
 - [Triage issues](/maintaining-a-track/triaging-issues.md)
-- [Review pull requests](/maintaining-a-track/reviewing-a-pull-request.md)
+- [Review and merge pull requests](/maintaining-a-track/reviewing-a-pull-request.md)
+- [Add and improve language-specific documentation](/maintaining-a-track/writing-documentation.md)
+- Discuss improvements in the exercises
+- Implement or [port](/contributing-to-language-tracks/porting-an-exercise.md) new exercises
+- Improve the development tooling (e.g. implementing continuous integration)
+- Recognize helpful contributions and [invite new maintainers](/maintaining-a-track/inviting-new-maintainers.md)

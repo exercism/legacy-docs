@@ -1,4 +1,4 @@
-# Fixing Exercise READMEs
+# Exercise READMEs
 
 [x-common]: http://github.com/exercism/x-common/tree/master/exercises
 [trackler]: https://github.com/exercism/trackler

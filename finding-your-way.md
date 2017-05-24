@@ -226,7 +226,7 @@ Do you like mentoring people?
 [discussions-cli]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+cli+sort%3Aupdated-desc
 [how-to-new-exercise]: https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md#implementing-a-completely-new-exercise
 [issue-exercise-ideas]: https://github.com/exercism/x-common/issues/107
-[how-to-exercise-readmes]: https://github.com/exercism/docs/blob/master/contributing-to-language-tracks/fixing-exercise-readmes.md
+[how-to-exercise-readmes]: https://github.com/exercism/docs/blob/master/contributing-to-language-tracks/exercise-readmes.md
 [discussions-docs]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+documentation+sort%3Aupdated-desc
 [docs-issues]: https://github.com/exercism/docs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
 [org-issues-dogs]: https://github.com/search?o=desc&p=1&q=org%3Aexercism+documentation+is%3Aissue&ref=searchresults&s=updated&state=open&type=Issues&utf8=%E2%9C%93

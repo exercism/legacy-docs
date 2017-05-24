@@ -7,7 +7,7 @@
 [x-common]: https://github.com/exercism/x-common
 [blazon]: https://github.com/exercism/blazon
 [blazon-process]: /contributing-to-language-tracks/improving-consistency-across-tracks.md
-[fixing-readmes]: /contributing-to-language-tracks/fixing-exercise-readmes.md
+[fixing-readmes]: /contributing-to-language-tracks/exercise-readmes.md
 
 The Exercism language tracks are a great way to get involved in:
 

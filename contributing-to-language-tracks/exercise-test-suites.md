@@ -7,6 +7,8 @@ We simulate Test-Driven Development (TDD) by implementing the tests in order of 
 - helps triangulate a solution to be more generic, or
 - requires new functionality incrementally.
 
+Above all, a good test suite adheres to the conventions of the language and the testing idioms of the framework used in the track.
+
 The characteristics of a good individual test are:
 
 - a clear name or description that reveals the intent of the test
@@ -14,12 +16,17 @@ The characteristics of a good individual test are:
   - Temporary variables should be avoided unless they add to the test's clarity.
   - Well named test helpers can be employed to encapsulate shared setup between tests.
   - Test helpers should be extremely simple, and branching logic inside a helper is to be avoided.
-- a manageable increase in complexity from the previous passing test 
+- a manageable increase in complexity from the previous passing test
 - introduces a single new requirement
 - a minimal number of expectations required to specify the change (one expectation is preferred)
 - a readable and understandable failure message
-- adherence to the testing idioms of the language and testing framework of the track
 - does not duplicate the expectations of another test
+
+Many testing frameworks randomize the order in which tests are run. Under normal circumstances this is desireable, since it helps enforce tests that are indpendent of each other. In the context of Exercism, however, this can be confusing. When someone begins to solve an exercise, getting all the failures for all the tests in random order can make it hard to know where to begin solving the problem.
+
+In order to provide a better user experience, some language tracks only leave the first test in an exercise test suite active. All subsequent tests are marked as "skipped" or "pending" using whatever method or directive that is provided by the testing framework. This means that the person solving the exercise must manually edit the test suite to activate the tests one by one as they write their solution.
+
+Additionally, this has implications for Continuous Integration (CI), as the test script must change the test file in order to activate all the tests.
 
 The test suite of an exercise should be guided by the common specifications laid out by the `canonical-data.json` file of each exercise in [x-common](https://github.com/exercism/x-common) if it is available. The specifications there provide good defaults for:
 

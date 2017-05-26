@@ -10,7 +10,7 @@ context of Exercism.
 - **specification** - a language-agnostic description of a problem. These live in [the x-common repository][x-common-repo]
 - **exercise** - a language-specific implementation of a specification. Typically consists of a test suite and a README
 - **slug** - a short, unique identifier for a problem, specification, or exercise (e.g. `hamming`). Matches `/^[a-z-]+$/`
-- **solution** - a collection of iterations that a single person has done to solve an exercise
 - **iteration** - the code that someone writes to make a test suite pass
+- **solution** - a collection of iterations that a single person has done to solve an exercise
 
 [x-common-repo]: https://github.com/exercism/x-common

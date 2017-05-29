@@ -3,9 +3,16 @@
 There are a number of terms that we use that have specific meaning within the
 context of Exercism.
 
+## Summary
+
+People come to Exercism for the exercises and each **exercise** consists of the **specification** of a problem to solve and a concrete **implementation** of that problem.
+
+The **solution** to an exercise is made up of one or more **iterations**
+
 | Term              | Explanation                                                                                                                                         |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **exercise**      | a language-specific implementation of a **specification**. Typically consists of a test suite and a README                                          |
+| **exercise**       | an instance of a problem, made up of a **specification** and its **implementation**                                      |
+| **implementation** | **language** specific test suite and documentation used to implement a **specification**                                 |
 | **iteration**     | the code that someone writes to make a test suite pass                                                                                              |
 | **language**      | the name of a programming language, for example _C++_ or _Haskell_                                                                                  |
 | **problem**       | abstract concept for a programming task on exercism.io                                                                                              |

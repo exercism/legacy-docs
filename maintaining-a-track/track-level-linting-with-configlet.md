@@ -11,4 +11,4 @@ which will make a guess at what operating system and architecture you have and
 attempt to download the right one.
 
 Verify the config by calling `bin/configlet .` (notice the dot). This says
-_check the config of the language track that is stored right here).
+_check the config of the language track that is stored right here_.

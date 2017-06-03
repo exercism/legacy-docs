@@ -9,7 +9,7 @@ Most open source projects are code that people incorporate into their own projec
 
 Exercism is unusual in the open source landscape. Exercism isn't a component or infrastructure. Exercism is an experience targeted at the end-user.
 
-If you want to follow along on the high-level goings-on on the Exercism project, watch the [discussions][] repository, and sign up for the [newsletter][].
+If you want to follow the high-level goings-on of the Exercism project, watch the [discussions][] repository, and sign up for the [newsletter][].
 
 ## The Product
 

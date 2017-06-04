@@ -1,7 +1,7 @@
 # Getting Involved in an Exercism Language Track
 
 [repositories]: http://exercism.io/repositories
-[triaging-issues]: /contributing-to-language-tracks/triaging-issues-in-a-track.md
+[triaging-issues]: /maintaining-a-track/triaging-issues.md
 [reviewing-prs]: /maintaining-a-track/reviewing-a-pull-request.md
 [porting]: /contributing-to-language-tracks/porting-an-exercise.md
 [x-common]: https://github.com/exercism/x-common

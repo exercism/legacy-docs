@@ -1,7 +1,7 @@
 # Managing the Curriculum
 
 The tracks should implement the exercise idiomatically in the language at hand, without veering too far from the problem description in the README.
-Keep the [goal of Exercism](/maintaining-a-track/goal-of-exercism.md) when considering new exercises or changes to existing ones.
+Keep the [goal of Exercism][goal] when considering new exercises or changes to existing ones.
 
 **Exercises should not enforce a single way to solve the problem, if possible.** The more interesting exercises allow several approaches, and create rich opportunities for discussing trade-offs when people submit their solutions.
 
@@ -14,3 +14,4 @@ Don't be afraid to skip (or 'forego') exercises that don't make sense in the lan
 For more nitty-gritty details about what to consider concerning exercises, see the document about [reviewing pull requests](/maintaining-a-track/reviewing-a-pull-request.md).
 
 [x-common]: http://github.com/exercism/x-common
+[goal]: /about/goal-of-exercism.md

@@ -14,12 +14,12 @@ One of the core principles of Exercism is that people should do the exercises be
 
 The book [How Learning Works][how-learning-works] explores three different axes along which people's motivation is strengthened or weakened.
 
-* [**Perceived Value**][#perceived-value], explored in more depth in
+* [**Perceived Value**](#perceived-value), explored in more depth in
   * [The Goals of Exercism][product-goals]
   * [Goals, Hopes and Dreams][user-goals]
-* [**Expectancies of Success**][#expectancies-of-success], explored in more depth in
+* [**Expectancies of Success**](#expectancies-of-success), explored in more depth in
   * [Progression][progression]
-* [**Environment**][#environment], explored in more depth in
+* [**Environment**](#environment), explored in more depth in
   * [Emotional Journey][emotional-stages]
   * [Code Review][code-review]
 

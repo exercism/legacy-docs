@@ -38,4 +38,4 @@ For a student learning a completely new programming language, completing the 10-
 
 This also means we can have infinite exercises per track. As long as the core stays lean and each side exercise can logically be unlocked by completing a core exercise, then everything will feel structured and rich.
 
-Moving towards a model with a mainline with optional explorations will mean that we will need to consider our exercise metadata much more carefully than we have until now. If we are willing to have 100(s) of exercises on a track, it needs to be clear to a learner what the core concepts of each exercise is about, how difficult it is, how long it might take, etc. This will allow Exercise to be broad and deep without being overwhelming.
+Moving towards a model with a mainline with optional explorations will mean that we will need to consider our exercise metadata much more carefully than we have until now. If we are willing to have 100(s) of exercises on a track, it needs to be clear to a learner what the core concepts of each exercise is about, how difficult it is, how long it might take, etc. This will allow Exercism to be broad and deep without being overwhelming.

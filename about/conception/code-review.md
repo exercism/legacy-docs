@@ -1,6 +1,6 @@
 # Code Review
 
-We have found that people's opinions on code review and feedback is largely determined by the quality of the feedback, specifically with regard to the level of respect and pragmatism by the person providing feedback.
+We have found that people's opinions on code review and feedback are largely determined by the quality of the feedback, specifically with regard to the level of respect and pragmatism by the person providing feedback.
 
 In our explorations, fear and irritation both ranked as equally negative emotions that must be mitigated.
 
@@ -23,7 +23,7 @@ We've grouped the benefits into different categories.
 #### Quality
 - The quality of the feedback will be consistently much higher
 - The quality of tone will be consistently much higher
-- We can give feedback on the feedback and the mentor will expected/appreciate that
+- We can give feedback on the feedback and the mentor will expect/appreciate that
 - We can ensure that people giving feedback know the things we want them to know about feedback
 - We can stop bad behaviors, patterns, and feedback as part of a process, not something that feels vindictive or elitist
 - Mentors will be invested in understanding the exercises better
@@ -34,7 +34,7 @@ We've grouped the benefits into different categories.
 
 #### Processes
 - Our internal systems for feedback can be hackier/experimental, as we're working with a trusted group of people who can input on that.
-- Mentors will be able to compare notes and synthesize learnings
+- Mentors will be able to compare notes and synthesize learnings.
 - There is a clearer separation of mentoring as a skill, and language-knowledge as a skill, and we can train the two things separately.
 - It's quicker to ramp up to mentoring in a new language track, because you already have the mentoring skills, even if you don't have the language skills right off the bat.
 
@@ -45,7 +45,7 @@ We've grouped the benefits into different categories.
 
 #### Aspiration
 - If mentoring on Exercism is respected and exciting people will be motivated to get the privilege
-- At the end of a track, there is a "next step" of become a mentor, which means it doesn't end with the last exercise
+- At the end of a track, there is a "next step" to become a mentor, which means it doesn't end with the last exercise
 - Mentors explicitly get skills that are transferrable to other contexts and platforms
 
 #### Marketing (Benefits to Exercism?)
@@ -72,7 +72,7 @@ In practice, our experience with community moderation is that the quality of fee
 
 ### Conclusions
 
-Based on the above points, we believe that the right choice for Exercism to restrict the giving of feedback to mentors. However, we feel that it is essential that the benefits of community feedback are not lost. Specifically we believe it is crucial to provide an onramp so that anyone who wants to can train to become a mentor. Mentorship must not be elitist and must not be restricted to the "superstars" of communities. Throughout the site, the option to become a mentor must be clear and welcoming.
+Based on the above points, we believe that the right choice for Exercism is to restrict the giving of feedback to mentors. However, we feel that it is essential that the benefits of community feedback are not lost. Specifically we believe it is crucial to provide an onramp so that anyone who wants to can train to become a mentor. Mentorship must not be elitist and must not be restricted to the "superstars" of communities. Throughout the site, the option to become a mentor must be clear and welcoming.
 
 We considered the possible ways to "train" a mentor, and concluded that a mentorship track is the most Exercism-y way to do it. We propose creating a track that gives users moderation exercises where other mentors can then help them improve their moderating skills. This ensures that when a mentor graduates from that track, they will have come across a variety of different personalities and code issues, and be prepared to give feedback on a wide variety of exercises in an equally wide variety of situations.
 

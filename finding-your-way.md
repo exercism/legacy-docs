@@ -156,7 +156,7 @@ Do you have/want to have chops in HTML+CSS+JavaScript/CoffeeScript and want to i
 - [Setup your local development environment][io-local-env].
 -  Locate a feature/bug to work on:
    - [`exercism/exercism.io?label:good first patch`][exercism-good-first-patch]
-   - [`exercism/exercism.io?label:bug`][exercism-bug]
+   - [`exercism/exercism.io?label:bug`][exercism-bugs]
 -  Work the issue: [the contribution workflow][contribution-workflow].
 
 You may also find these helpful:
@@ -171,7 +171,7 @@ Do you have/want to have chops in Ruby or Sinatra and want to add to the website
 - [Setup your local development environment][io-local-env].
 -  Locate a feature/bug to work on:
    - [`exercism/exercism.io?label:good first patch`][exercism-good-first-patch]
-   - [`exercism/exercism.io?label:bug`][exercism-bug]
+   - [`exercism/exercism.io?label:bug`][exercism-bugs]
 -  Work the issue: [the contribution workflow][contribution-workflow].
 
 You may also find these helpful:

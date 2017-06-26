@@ -50,7 +50,7 @@ There are many ways to contribute to the common pool:
 - make up more exercises
 - define canonical data-sets to make it easier to implement the exercise
 
-The common pool is maintained in the [exercism/x-common][x-common] repository.
+The common pool is maintained in the [exercism/problem-specifications][problem-specifications] repository.
 
 ### The Language Tracks
 
@@ -70,7 +70,7 @@ You can navigate to the repository for any language track on Exercism via the [t
 [discussions]: https://github.com/exercism/discussions/issues
 [newsletter]: http://tinyletter.com/exercism
 [design-of-exercism]: http://tinyletter.com/exercism/letters/the-delightful-design-of-exercism
-[x-common]: https://github.com/exercism/x-common
+[problem-specifications]: https://github.com/exercism/problem-specifications
 [getting-started-track]: https://github.com/exercism/exercism.io/tree/master/docs/getting-involved-in-a-track.md
 [trackler]: https://github.com/exercism/trackler
 [trackler-tracks]: https://github.com/exercism/trackler/tree/master/tracks

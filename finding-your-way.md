@@ -46,7 +46,7 @@
 
 * If a particular exercise is giving you grief, ask for help in our [online support chat][chat].
 - If there's a defect in the...
-  - **instructions** of the exercise, you can make a difference by [filing a bug report][filing-bug] in the [`exercism/x-common` repository][x-common-new-issue].
+  - **instructions** of the exercise, you can make a difference by [filing a bug report][filing-bug] in the [`exercism/problem-specifications` repository][common-new-issue].
     - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
   - **tests** or **starter code** of the exercise, you can help by [filing a bug report][filing-bug] in the "Issues" section of the [corresponding language repository][track-repos].
     - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
@@ -91,19 +91,19 @@ If the idea isn't being discussed yet, kick it off in the [`exercism/cli` reposi
 
 New exercise ideas are definitely welcome!  Here's how to ensure the idea lands in the right place:
 
-*Note: the central library of exercises on Exercism is https://github.com/exercism/x-common.*
+*Note: the central library of exercises on Exercism is https://github.com/exercism/problem-specifications.*
 
-- Check to see if the exercise is listed: https://github.com/exercism/x-common/tree/master/exercises.
+- Check to see if the exercise is listed: https://github.com/exercism/problem-specifications/tree/master/exercises.
   - If it is there, but not in the language you'd like to solve it in, put in a request in that particular language's repository: http://exercism.io/repositories.
     - if you have the time and the desire, you can help *even more* by [implementing it][ref-help-track].
-  - If it is not there, suggest it in [`exercism/x-common`][x-common-new-issue].
+  - If it is not there, suggest it in [`exercism/problem-specifications`][common-new-issue].
     - if you have the time and the desire, you can help *even more* by [implementing it][how-to-new-exercise].
-- If you know of a good source of potential new problems, please share: [`exercism/x-common#107`][issue-exercise-ideas].
+- If you know of a good source of potential new problems, please share: [`exercism/problem-specifications#107`][issue-exercise-ideas].
 
 ### I have an idea about improving an existing exercise
 
 - If the idea is to improve the...
-  - **instructions** of the exercise, you can make a difference by making the suggestion in the [`exercism/x-common` repository][x-common-new-issue].
+  - **instructions** of the exercise, you can make a difference by making the suggestion in the [`exercism/problem-specifications` repository][common-new-issue].
     - if you have the time and the desire, you can help *even more* by [fixing it][how-to-exercise-readmes].
   - **tests** or **starter code** of the exercise, you can help by making the suggestion in the "Issues" section of the [corresponding language repository][track-repos].
     -  if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
@@ -218,14 +218,14 @@ Do you like mentoring people?
 [cli-bugs]: https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 [cli-new-issue]: https://github.com/exercism/cli/issues/new
 [track-repos]: http://exercism.io/repositories
-[common-new-issue]: https://github.com/exercism/x-common/issues/new
+[common-new-issue]: https://github.com/exercism/problem-specifications/issues/new
 [discussions-new-issue]: https://github.com/exercism/discussions/issues/new
 [roadmap]: roadmap.md
 [discussion-cli-ux]: https://github.com/exercism/discussions/issues/129
 [cli-issues]: https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
 [discussions-cli]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+cli+sort%3Aupdated-desc
-[how-to-new-exercise]: https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md#implementing-a-completely-new-exercise
-[issue-exercise-ideas]: https://github.com/exercism/x-common/issues/107
+[how-to-new-exercise]: https://github.com/exercism/problem-specifications/blob/master/CONTRIBUTING.md#implementing-a-completely-new-exercise
+[issue-exercise-ideas]: https://github.com/exercism/problem-specifications/issues/107
 [how-to-exercise-readmes]: https://github.com/exercism/docs/blob/master/contributing-to-language-tracks/exercise-readmes.md
 [discussions-docs]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+documentation+sort%3Aupdated-desc
 [docs-issues]: https://github.com/exercism/docs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc

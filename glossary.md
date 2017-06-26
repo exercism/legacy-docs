@@ -21,5 +21,3 @@ The **solution** to an exercise is made up of one or more **iterations**
 | **specification**  | a language-agnostic description of a **problem**. These live in the [problem-specifications](https://github.com/exercism/problem-specifications) repository |
 | **track**          | a collection of **exercises** implemented in a given **language**                                                                                   |
 | **track id**       | a short, unique identifier for a track (e.g. `cpp` or `haskell`). Consists of lowercase words separated by hyphens                                  |
-
-[x-common-repo]: https://github.com/exercism/x-common

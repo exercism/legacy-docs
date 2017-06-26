@@ -51,7 +51,7 @@
   - **tests** or **starter code** of the exercise, you can help by [filing a bug report][filing-bug] in the "Issues" section of the [corresponding language repository][track-repos].
     - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
 - You can ask for help within the track:
-  1. `exercism submit` the code you have;
+  - `exercism submit` the code you have;
   -  Follow the link that the CLI returns to view your new submission on the website;
   -  In the "**Manage**" pull-down (top-right), select "**Request Help**".
 
@@ -153,7 +153,7 @@ This means helping maintain the code of the exercises and supporting tooling for
 
 Do you have/want to have chops in HTML+CSS+JavaScript/CoffeeScript and want to improve the feel and function of the Exercism website?
 
-1. [Setup your local development environment][io-local-env].
+- [Setup your local development environment][io-local-env].
 -  Locate a feature/bug to work on:
    - [`exercism/exercism.io?label:good first patch`][exercism-good-first-patch]
    - [`exercism/exercism.io?label:bug`][exercism-bug]
@@ -168,7 +168,7 @@ You may also find these helpful:
 
 Do you have/want to have chops in Ruby or Sinatra and want to add to the website?
 
-1. [Setup your local development environment][io-local-env].
+- [Setup your local development environment][io-local-env].
 -  Locate a feature/bug to work on:
    - [`exercism/exercism.io?label:good first patch`][exercism-good-first-patch]
    - [`exercism/exercism.io?label:bug`][exercism-bug]
@@ -183,7 +183,7 @@ You may also find these helpful:
 
 One of the more subtle but important parts of the Exercism experience is our CLI; it's written in Go.
 
-1. Setup your local development environment for the CLI: [`exercism/cli`][cli-repo]
+- Setup your local development environment for the CLI: [`exercism/cli`][cli-repo]
 -  Locate a feature/bug to work on: [`exercism/cli`][cli-issues]
 -  Work the issue: [the contribution workflow][contribution-workflow].
 

@@ -18,8 +18,6 @@ The **solution** to an exercise is made up of one or more **iterations**
 | **problem**        | the abstract concept of a programming task on exercism.io                                                                                           |
 | **slug**           | a short, unique identifier for a **problem**, **specification**, or **exercise** (e.g. `hamming`). Consists of lowercase words separated by hyphens |
 | **solution**       | a collection of **iterations** that a single person has done to solve an **exercise**                                                               |
-| **specification**  | a language-agnostic description of a **problem**. These live in [the x-common repository][x-common-repo]                                            |
+| **specification**  | a language-agnostic description of a **problem**. These live in the [problem-specifications](https://github.com/exercism/problem-specifications) repository |
 | **track**          | a collection of **exercises** implemented in a given **language**                                                                                   |
 | **track id**       | a short, unique identifier for a track (e.g. `cpp` or `haskell`). Consists of lowercase words separated by hyphens                                  |
-
-[x-common-repo]: https://github.com/exercism/x-common

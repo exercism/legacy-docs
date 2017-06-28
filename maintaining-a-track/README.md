@@ -1,4 +1,4 @@
-# Maintaining an Exercism Language Track
+﻿# Maintaining an Exercism Language Track
 
 * [Philosophy](#philosophy)
 
@@ -59,7 +59,7 @@ The exercises often start out as an experiment. As people do the exercises we le
 
 Over time we try to:
 
-- improve the problem descriptions in [exercism/x-common](github.com/exercism/x-common)
+- improve the problem descriptions in [exercism/problem-specifications](github.com/exercism/problem-specifications)
 - add missing edge cases in the test suites
 - reorder tests to allow a more incremental approach to solving the problem
 - improve the test suites to avoid pushing people towards specific solutions
@@ -86,7 +86,7 @@ This will notify you of all new issues, pull requests, and comments.
 
 In addition to the language track repository itself, you may also want to watch:
 
-- the [exercism/x-common](http://github.com/exercism/x-common) repository which contains all of the exercise descriptions and metadata. Many discussions about improvements to the exercises happen here.
+- the [exercism/problem-specifications](http://github.com/exercism/problem-specifications) repository which contains all of the exercise descriptions and metadata. Many discussions about improvements to the exercises happen here.
 - the [exercism/discussions](http://github.com/exercism/discussions) repository where a lot of high-level discussions about Exercism itself happen (roadmap, direction, ideas, conundrums).
 
 ### Perform Common Tasks

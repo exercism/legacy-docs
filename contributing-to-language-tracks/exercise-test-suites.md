@@ -28,7 +28,7 @@ In order to provide a better user experience, some language tracks only leave th
 
 Additionally, this has implications for Continuous Integration (CI), as the test script must change the test file in order to activate all the tests.
 
-The test suite of an exercise should be guided by the common specifications laid out by the `canonical-data.json` file of each exercise in [x-common](https://github.com/exercism/x-common) if it is available. The specifications there provide good defaults for:
+The test suite of an exercise should be guided by the common specifications laid out by the `canonical-data.json` file of each exercise in [problem-specifications](https://github.com/exercism/problem-specifications) if it is available. The specifications there provide good defaults for:
 
 - the order of the tests
 - the descriptions of the tests

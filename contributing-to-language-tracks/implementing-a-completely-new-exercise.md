@@ -6,7 +6,7 @@ A problem must have a unique slug. This slug is used as
 * the directory name for the folder that contains the metadata files (in this repository)
 * to identify the exercise in `config.json`
 
-### In exercism/x-common
+### In exercism/problem-specifications
 
 * Create `exercises/<slug>/description.md` and `exercises/<slug>/metadata.yml`.
 * Bonus: `exercises/<slug>/canonical-data.json` with inputs/outputs for the test suite.
@@ -16,5 +16,5 @@ A problem must have a unique slug. This slug is used as
 
 * Do the same as when [porting an
   exercise](#porting-an-exercise-to-another-language-track).
-  Reference the PR in x-common if it hasn't been merged yet,
-  this **must not** be merged until the exercism/x-common PR is merged.
+  Reference the PR in problem-specifications if it hasn't been merged yet,
+  this **must not** be merged until the exercism/problem-specifications PR is merged.

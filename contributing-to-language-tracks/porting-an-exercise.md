@@ -1,8 +1,8 @@
-# Porting an Exercise to Another Language Track
+﻿# Porting an Exercise to Another Language Track
 
-[x-common]: http://github.com/exercism/x-common/tree/master/exercises
+[problem-specifications]: http://github.com/exercism/problem-specifications/tree/master/exercises
 [support-chat]: https://gitter.im/exercism/support
-[topics]: https://github.com/exercism/x-common/blob/master/TOPICS.txt
+[topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt
 [configlet]: https://github.com/exercism/configlet#configlet
 
 Exercism has a lot of exercises in a lot of languages.
@@ -10,7 +10,7 @@ Exercism has a lot of exercises in a lot of languages.
 There is a common pool of problem definitions, which can be implemented in any
 of the language tracks.
 
-The language-agnostic definition lives in the [x-common][] repository, within
+The language-agnostic definition lives in the [problem-specifications][] repository, within
 the `exercises/` directory:
 
     /exercises/$SLUG/
@@ -68,7 +68,7 @@ master, which will make the WIP commit go away.
 You'll need to find the `slug` for the exercise. That's the URL-friendly identifier
 for an exercise that is used throughout all of Exercism.
 
-**The name of the exercise directory in the [x-common][] repository is the slug.**
+**The name of the exercise directory in the [problem-specifications][] repository is the slug.**
 
 Create a new directory named after the slug in the `exercises` directory of the language
 track repository.

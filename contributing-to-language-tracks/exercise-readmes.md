@@ -1,6 +1,6 @@
-# Exercise READMEs
+﻿# Exercise READMEs
 
-[x-common]: http://github.com/exercism/x-common/tree/master/exercises
+[problem-specifications]: http://github.com/exercism/problem-specifications/tree/master/exercises
 [trackler]: https://github.com/exercism/trackler
 [trackler-readme]: https://github.com/exercism/trackler/blob/master/lib/trackler/implementation.rb#L40-L42
 
@@ -18,11 +18,11 @@ The READMEs are assembled from files that live in different repositories:
 In addition, there's some hard-coded, generic stuff that lives in the
 [file that assembles the README][trackler-readme] within the trackler gem.
 
-To complicate matters, an exercise might be based on one of the problem specifications in the [common pool][x-common],
+To complicate matters, an exercise might be based on one of the problem specifications in the [common pool][problem-specifications],
 or it could be a custom exercise invented just for the track in question.
 
 The first thing to check is whether or not this comes from the common pool of exercises. If so, it will appear in the
-[`exercises` directory of the common pool][x-common].
+[`exercises` directory of the common pool][problem-specifications].
 
 If it exists you'll see a directory for the exercise, which contains the `description.md` and the `metadata.yml`. The
 directory may also contain other files.
@@ -30,8 +30,8 @@ directory may also contain other files.
 For example, for an exercise named `foo` from the common pool, you'll find the files in `exercises/foo`.
 
 ```
-$ tree x-common/exercises/foo/
-x-common/exercises/foo/
+$ tree problem-specifications/exercises/foo/
+problem-specifications/exercises/foo/
 ├── description.md
 └── metadata.yml
 ```

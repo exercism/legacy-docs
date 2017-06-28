@@ -39,7 +39,7 @@ You can also [download it](https://github.com/exercism/configlet/releases/latest
 Things that the tool does not yet do, and which should be checked:
 
 - Is the test file named correctly, per the guidelines in the language track? (TODO: add to `configlet`)
-- Does the directory name of the exercise match that of [an existing, known exercism exercise slug](https://github.com/exercism/x-common/tree/master/exercises)?
+- Does the directory name of the exercise match that of [an existing, known exercism exercise slug](https://github.com/exercism/problem-specifications/tree/master/exercises)?
 
 If there is no automated checking, then you should also verify:
 
@@ -47,7 +47,7 @@ If there is no automated checking, then you should also verify:
 
 ### Consider Future Maintainers
 
-- Does the commit message contain the [exercise slug](https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md#updating-a-generic-problem-description)?
+- Does the commit message contain the [exercise slug](https://github.com/exercism/problem-specifications/blob/master/CONTRIBUTING.md#updating-a-generic-problem-description)?
 - Does the commit message explain _why_ the change was made?
 
 ### Consider the User Experience
@@ -61,7 +61,7 @@ If there is no automated checking, then you should also verify:
 - Does the exercise pull in unnecessary dependencies?
 - Have all but the first test been skipped? (Only for tracks that use `pending` or `skip` or `ignore` directives)
 - If the exercise introduced difficult language features, is there a `HINTS.md` file that points to some good documentation about it?
-- Do the tests use the data from the [`canonical-data.json`](https://github.com/exercism/x-common#test-data-format-canonical-datajson) file (if it exists)? Are any of the deviations from `canonical-data.json` generally useful to other language tracks? _If so, consider submitting them back to the x-common repository._
+- Do the tests use the data from the [`canonical-data.json`](https://github.com/exercism/problem-specifications#test-data-format-canonical-datajson) file (if it exists)? Are any of the deviations from `canonical-data.json` generally useful to other language tracks? _If so, consider submitting them back to the problem-specifications repository._
 
 There is usually no right answer, and sometimes the best answer is "I don't know, we'll see."
 If it seems good enough we can merge it. It can always be improved later.

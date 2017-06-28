@@ -4,7 +4,7 @@
 [triaging-issues]: /maintaining-a-track/triaging-issues.md
 [reviewing-prs]: /maintaining-a-track/reviewing-a-pull-request.md
 [porting]: /contributing-to-language-tracks/porting-an-exercise.md
-[x-common]: https://github.com/exercism/x-common
+[problem-specifications]: https://github.com/exercism/problem-specifications
 [blazon]: https://github.com/exercism/blazon
 [blazon-process]: /contributing-to-language-tracks/improving-consistency-across-tracks.md
 [fixing-readmes]: /contributing-to-language-tracks/exercise-readmes.md
@@ -100,17 +100,17 @@ directory in the language track repository for the directory named after the
 slug of the exercise. The test file will be right there.
 
 That said, some test suites are generated based on the `canonical-data.json`
-file found in [x-common][]. The README for the language track repository
+file found in [problem-specifications][]. The README for the language track repository
 should tell you what you need to know.
 
 For every change that you make to the test suite, ask yourself: **Should this
 change also affect other language tracks that implement the same exercise?**
 
-If you think it might, open a discussion in the [x-common][] repository and get
+If you think it might, open a discussion in the [problem-specifications][] repository and get
 other track implementors' feedback on the subject.
 
 If this change should affect the broader Exercism curriculum, then use the
-issue in [x-common][] to:
+issue in [problem-specifications][] to:
 
 - Hash out all the details together.
 - Figure out the necessary changes to the `canonical-data.json` for the

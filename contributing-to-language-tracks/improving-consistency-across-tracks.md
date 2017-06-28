@@ -1,7 +1,7 @@
-# Improving Consistency Across Tracks
+﻿# Improving Consistency Across Tracks
 
 [blazon]: https://github.com/exercism/blazon
-[x-common]: https://github.com/exercism/x-common/tree/master/exercises
+[problem-specifications]: https://github.com/exercism/problem-specifications/tree/master/exercises
 
 ## Canonical Data
 
@@ -17,7 +17,7 @@ We want to avoid
 
 Once we've found a good set of tests, we formalize the inputs and outputs and
 store it in a file called `canonical-data.json` alongside the language-agnostic
-problem description in the [x-common][] repository.
+problem description in the [problem-specifications][] repository.
 
 This makes it easier to port the exercises to new language tracks, as well as
 propogate changes to the exercises that have already been implemented in
@@ -25,7 +25,7 @@ many tracks.
 
 ## Extracting Canonical Test Data
 
-Each of the exercises in the [common pool of exercises][x-common-exercises] can have a
+Each of the exercises in the [common pool of exercises][problem-specifications-exercises] can have a
 `canonical-data.json` file alongside the other files defining the exercise:
 
 ```
@@ -53,7 +53,7 @@ Here are some considerations that may help:
 * The test cases should not require people to follow one very specific way to solve the problem, e.g. the tests should avoid checking for helper functions that might not be present in other implementations.
 * Performance tests should not be included in the canonical test data.
 
-Once you've decided on a set of test cases, create the `canonical-data.json` file following the guidelines in [x-common's README][data-format-docs].
+Once you've decided on a set of test cases, create the `canonical-data.json` file following the guidelines in [problem-specifications's README][data-format-docs].
 
 If you are unsure about any of the considerations make a pull request with an initial proposal and ask the community for help.
 
@@ -79,7 +79,7 @@ We've built some tooling for this, [blazon][blazon], to make it easier to manage
 
 The process goes like this:
 
-**Open an issue** in the x-common repository describing the problem, the fix,
+**Open an issue** in the problem-specifications repository describing the problem, the fix,
 and the reasoning behind it. Link to any relevant discussions. This is the _parent
 issue_.
 
@@ -118,6 +118,6 @@ descriptive. It should contain the slug of the relevant exercise.
     $ blazon -exercise=<slug> -file=<filename>
 
 
-[x-common-exercises]: https://github.com/exercism/x-common/tree/master/exercises
-[canonical-data-issues]: https://github.com/exercism/x-common/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22cross-track%20consistency%22%20canonical-data.json
-[data-format-docs]: https://github.com/exercism/x-common#test-data-format-canonical-datajson
+[problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/master/exercises
+[canonical-data-issues]: https://github.com/exercism/problem-specifications/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22cross-track%20consistency%22%20canonical-data.json
+[data-format-docs]: https://github.com/exercism/problem-specifications#test-data-format-canonical-datajson

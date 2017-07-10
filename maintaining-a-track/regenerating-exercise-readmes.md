@@ -51,9 +51,19 @@ In addition to the values on `.Spec`, there are two additional bits of text that
 - `.Hints` - the contents of the optional `HINTS.md` which lives in the root of the exercise directory.
 - `.TrackInsert` - the contents of the `EXERCISE_README_INSERT.md` file, which lives in the track's `docs` directory.
 
+### Go's Text/Template Package
+
+You don't need much of the Go text/template language. The three things that are used in the default template
+are probably all you need:
+
+* `{{ .Something }}` outputs a value
+* `{{ with .Something }} ... {{ end }}` will conditionally output the `...` part if `.Something` is not empty. Within that section
+  you refer to the value of `.Something` as `.`.
+* `{{-` and `-}}` remove preceding and following whitespace.
+
 ### Default Template
 
-The default contents of `.meta/readme.go.tmpl` is:
+The default contents of `.meta/readme.go.tmpl` is below.
 
 ```
 # {{ .Spec.Name }}

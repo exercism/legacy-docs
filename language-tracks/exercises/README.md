@@ -11,7 +11,7 @@ This might be the right thing to do. Or it might add more work with little addit
 
 Don't be afraid to skip (or 'forego') exercises that don't make sense in the language, or that are not particularly interesting.
 
-For more nitty-gritty details about what to consider concerning exercises, see the document about [reviewing pull requests](/maintaining-a-track/reviewing-a-pull-request.md).
+For more nitty-gritty details about what to consider concerning exercises, see the document about [reviewing pull requests](/you-can-help/review-pull-requests.md).
 
 [problem-specifications]: http://github.com/exercism/problem-specifications
 [goal]: /about/goal-of-exercism.md

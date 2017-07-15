@@ -91,10 +91,10 @@ In addition to the language track repository itself, you may also want to watch:
 
 ### Perform Common Tasks
 
-- [Triage issues](/maintaining-a-track/triaging-issues.md)
-- [Review and merge pull requests](/maintaining-a-track/reviewing-a-pull-request.md)
+- [Triage issues](/you-can-help/triage-issues.md)
+- [Review and merge pull requests](/you-can-help/review-pull-requests.md)
 - [Add and improve language-specific documentation](/language-tracks/documentation/for-consumers.md)
 - Discuss improvements in the exercises
-- Implement or [port](/contributing-to-language-tracks/porting-an-exercise.md) new exercises
+- [Implement](/you-can-help/make-up-new-exercises.md) or [port](/you-can-help/implement-an-exercise-from-specification.md) new exercises
 - Improve the development tooling (e.g. implementing continuous integration)
 - Recognize helpful contributions and [invite new maintainers](/maintaining-a-track/inviting-new-maintainers.md)

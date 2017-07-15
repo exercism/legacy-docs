@@ -1,12 +1,12 @@
 # Getting Involved in an Exercism Language Track
 
 [repositories]: http://exercism.io/repositories
-[triaging-issues]: /maintaining-a-track/triaging-issues.md
-[reviewing-prs]: /maintaining-a-track/reviewing-a-pull-request.md
-[porting]: /contributing-to-language-tracks/porting-an-exercise.md
+[triaging-issues]: /you-can-help/triage-issues.md
+[reviewing-prs]: /you-can-help/review-pull-requests.md
+[porting]: /you-can-help/implement-an-exercise-from-specification.md
 [problem-specifications]: https://github.com/exercism/problem-specifications
 [blazon]: https://github.com/exercism/blazon
-[blazon-process]: /contributing-to-language-tracks/improving-consistency-across-tracks.md
+[blazon-process]: /you-can-help/improve-exercise-metadata.md
 [fixing-readmes]: /language-tracks/exercises/anatomy/readmes.md
 
 The Exercism language tracks are a great way to get involved in:

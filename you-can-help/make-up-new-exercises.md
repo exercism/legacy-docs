@@ -14,7 +14,6 @@ A problem must have a unique slug. This slug is used as
 
 ### In exercism/x<TRACK_ID>
 
-* Do the same as when [porting an
-  exercise](#porting-an-exercise-to-another-language-track).
+* Do the same as when [porting an exercise](/you-can-help/implement-an-exercise-from-specification.md).
   Reference the PR in problem-specifications if it hasn't been merged yet,
   this **must not** be merged until the exercism/problem-specifications PR is merged.

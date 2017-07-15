@@ -207,12 +207,12 @@ Do you like mentoring people?
 
 
 [chat]: https://gitter.im/exercism/support
-[filing-bug]: misc/filing-a-bug-report.md
-[feedback]: misc/providing-feedback.md
-[contributing-tracks]: contributing-to-language-tracks/README.md
+[filing-bug]: /contributing/filing-a-bug-report.md
+[feedback]: /contributing/providing-feedback.md
+[contributing-tracks]: /contributing-to-language-tracks/README.md
 [io-local-env]: https://github.com/exercism/exercism.io/blob/master/docs/setting-up-local-development.md
 [contribution-workflow]: https://github.com/exercism/exercism.io/issues/3252
-[overview-architecture]: misc/overview-architecture.md
+[overview-architecture]: /about/architecture.md
 [exercism-bugs]: https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 [exercism-new-issue]: https://github.com/exercism/exercism.io/issues/new
 [cli-bugs]: https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+label%3Abug

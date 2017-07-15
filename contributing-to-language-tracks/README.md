@@ -7,7 +7,7 @@
 [problem-specifications]: https://github.com/exercism/problem-specifications
 [blazon]: https://github.com/exercism/blazon
 [blazon-process]: /contributing-to-language-tracks/improving-consistency-across-tracks.md
-[fixing-readmes]: /contributing-to-language-tracks/exercise-readmes.md
+[fixing-readmes]: /language-tracks/exercises/anatomy/readmes.md
 
 The Exercism language tracks are a great way to get involved in:
 

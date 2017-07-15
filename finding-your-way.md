@@ -220,7 +220,7 @@ Do you like mentoring people?
 [track-repos]: http://exercism.io/repositories
 [common-new-issue]: https://github.com/exercism/problem-specifications/issues/new
 [discussions-new-issue]: https://github.com/exercism/discussions/issues/new
-[roadmap]: roadmap.md
+[roadmap]: /about/roadmap.md
 [discussion-cli-ux]: https://github.com/exercism/discussions/issues/129
 [cli-issues]: https://github.com/exercism/cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
 [discussions-cli]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+cli+sort%3Aupdated-desc

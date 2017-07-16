@@ -27,11 +27,11 @@ Further, the exercise should contain:
 exercises/
 └── foo/
     ├── .meta
-    │   ├── description.md # (maybe)
-    │   ├── example-solution.ext
-    │   ├── hints.md # (optional)
-    │   ├── metadata.yml # (maybe)
-    │   └── readme.go.tmpl # (optional)
+    │   ├── example-solution.ext   # (required)
+    │   ├── description.md         # (maybe)
+    │   ├── metadata.yml           # (maybe)
+    │   ├── hints.md               # (optional)
+    │   └── readme.go.tmpl         # (optional)
     ├── hello-world-test.ext
     ├── hello-world.ext
     └── README.md # (generated)

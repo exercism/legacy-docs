@@ -1,91 +1,105 @@
-﻿# Exercise READMEs
+﻿# READMEs
 
-[problem-specifications]: http://github.com/exercism/problem-specifications/tree/master/exercises
-[trackler]: https://github.com/exercism/trackler
-[trackler-readme]: https://github.com/exercism/trackler/blob/master/lib/trackler/implementation.rb#L40-L42
+Exercise READMEs are generated and committed to the repository.
 
-READMEs are automatically generated in the [trackler][] gem, which is a
-light-weight wrapper around all of the exercise data for all of the Exercism
-tracks.
+## Generating a README
 
-The READMEs are assembled from files that live in different repositories:
+### Setup
 
-* `description.md` contains the basic description of the problem
-* `metadata.yml` contains some generic metadata about the problem
-* `TRACK_HINTS.md` (or `SETUP.md`, which is the deprecated name of this file) contains hints that apply to all exercises in a given language track
-* `HINTS.md` contains hints that only apply to a single exercise
+Install [configlet][]. You will need version 3.0.0 or higher.
 
-In addition, there's some hard-coded, generic stuff that lives in the
-[file that assembles the README][trackler-readme] within the trackler gem.
-
-To complicate matters, an exercise might be based on one of the problem specifications in the [common pool][problem-specifications],
-or it could be a custom exercise invented just for the track in question.
-
-The first thing to check is whether or not this comes from the common pool of exercises. If so, it will appear in the
-[`exercises` directory of the common pool][problem-specifications].
-
-If it exists you'll see a directory for the exercise, which contains the `description.md` and the `metadata.yml`. The
-directory may also contain other files.
-
-For example, for an exercise named `foo` from the common pool, you'll find the files in `exercises/foo`.
+If any of the exercises in the track are based on problems in the [problem-specifications][] repository, then you will
+need to have a copy of that repository locally on disk, in the same directory as your track.
 
 ```
-$ tree problem-specifications/exercises/foo/
-problem-specifications/exercises/foo/
-├── description.md
-└── metadata.yml
+.
+├── the-track/
+└── problem-specifications/
 ```
 
-If the exercise is _not_ one of the exercises from the common pool, then those two files will live in the `.meta` directory
-of the exercise implementation within track itself.
+### Generation
 
-For example, for an exercise named `bar`, you'll find the files within `exercises/bar/.meta`:
+Assuming that you are in the root of the track repository, generate the README for an exercise with the slug `foo` using the following command:
 
 ```
-$ tree -a the-track/
-the-track/
-└── exercises
-    └── bar
-        ├── .meta
-        │   ├── description.md
-        │   └── metadata.yml
-        └── bar_test.ext
+configlet generate . --only foo`
 ```
 
-The other two files, `TRACK_HINTS.md` (or `SETUP.md`) and `HINTS.md` will both be in the track's repository.
+The command is build up as follows:
 
-`TRACK_HINTS.md` is at the root of the repository, whereas `HINTS.md` will either be in the directory of the
-exercise implementation, or in the `.meta` directory.
+* `configlet` - the name of the tool
+* `generate` - the subcommand that directs the tool to generate READMEs
+* `.` - the path to the root of the repository
+* `--only foo` - a flag specifying which exercise to generate. If you leave off the flag, the tool will generate all the READMEs.
 
-If the text you're trying to fix is not in any of those files, then you'll need to look at the hard-coded
-text in the [Trackler file that assembles the README][trackler-readme].
+
+## The README Template
+
+Each track has a default template in `./config/exercise-readme.go.tmpl`, and an exercise may override that template by placing a `readme.go.tmpl` file in the exercise's `.meta` directory.
+
+The template is written using Go's [text/template][text-template] package.
+
+There are a number of values available in the template:
+
+`.Spec` represents the problem specification, which is either a shared specification from [problem-specifications][], or a custom specification found in the exercise's `.meta` directory. The following values on `.Spec` can be referenced within the template:
+
+- `.Spec.Slug` - the exercise's slug
+- `.Spec.Name` - the wordified slug
+- `.Spec.Description` - the contents of the `description.md` file
+- `.Spec.Source` - a textual description of where the idea for the exercise came from (optional)
+- `.Spec.SourceURL` - a link to something about the source (optional)
+- `.Spec.Credits` - combines source and source_url into a readable bit of metadata
+
+In addition to the values on `.Spec`, there are two additional bits of text that can be included:
+
+- `.Hints` - the contents of the optional `$TRACK_ROOT/exercises/$SLUG/.meta/hints.md` file.
+- `.TrackInsert` - the contents of the `$TRACK_ROOT/config/exercise-readme-insert.md` file.
+
+### Go's Text/Template Package
+
+You don't need much of the Go text/template language. The three things that are used in the default template are probably all you need:
+
+* `{{ .Something }}` outputs a value
+* `{{ with .Something }} ... {{ . }} ... {{ end }}` will conditionally output contents between the `with` and `end` markers if `.Something` is not empty. To refer to the value of `.Something`, use `{{ . }}`. The `...` represents any text that you want to output there.
+* `{{-` and `-}}` remove preceding and following whitespace.
+
+### Default Template
+
+The default contents of `config/exercise-readme.go.tmpl` is below.
+
+```
+# {{ .Spec.Name }}
+
+{{ .Spec.Description -}}
+{{- with .Hints }}
+{{ . }}
+{{ end }}
+{{- with .TrackInsert }}
+{{ . }}
+{{ end }}
+{{- with .Spec.Credits -}}
+## Source
+
+{{ . }}
+{{ end }}
+## Submitting Incomplete Solutions
+It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+```
 
 ## Philosophical Considerations
 
 ### Description
 
-The problem specification (`description.md`) treads a very fine line between useful ambiguity and confusing vagueness.
-Because the problem description is the same whether you're solving the problem in C++ or
-in Lua, it needs to be high-level enough to allow for the syntactic, semantic, and philosophical
-differences in the various languages.
+The problem descriptions in the [problem-specifications][problem-specifications] repository tread a very fine line between useful ambiguity and confusing vagueness. Because the shared problem description is the same whether you're solving the problem in C++ or in Lua, it needs to be high-level enough to allow for the syntactic, semantic, and philosophical differences in the various languages.
 
-Within this purposeful ambiguity lies opportunities for making an exercise description more clear.
-
-Typical issues to be attentive to:
-
-- poorly worded sentences
-- outdated information
-- incorrect directives
-- typos
+Having said that, each track is free to write a more specific description if they want to, placing it either in the `.meta/description.md`, or directly into the README template.
 
 ### Track Hints
 
-The `TRACK_HINTS.md` (or `SETUP.md`) gets included in _all_ the exercise READMEs for the track,
-and mustn't refer to specific problems or files.
-
-It should contain helpful, generic information about solving an exercism problem in the target language,
-for example hints about how to run the tests or where to get help.
+The `config/exercise-readme-inserts.md` gets included in _all_ the exercise READMEs for the track, and mustn't refer to specific problems or files. It should contain helpful, generic information about solving an exercism problem in the language of the track, for example hints about how to run the tests or where to get help.
 
 ### Exercise Hints
 
-Anything that is specific to just one exercise, should be added to the `HINTS.md` file.
+Anything that is specific to just one exercise, should be added to the `exercises/$SLUG/.meta/hints.md` file.
+
+[problem-specifications]: http://github.com/exercism/problem-specifications/tree/master/exercises

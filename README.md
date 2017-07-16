@@ -2,11 +2,10 @@
 
 _Project-wide documentation for Exercism._
 
-First of all, **thank you** for helping with Exercism.io!
-
 For a 30,000 foot view of Exercism, start with [this overview](/about/README.md).
 
 If you've got something specific in mind that you'd like to do, but are not sure where to begin, check out our [guide to finding your way](/finding-your-way.md) around the Exercism project.
+
 
 ---
 

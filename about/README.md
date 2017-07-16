@@ -11,29 +11,27 @@ Exercism is unusual in the open source landscape. Exercism isn't a component or 
 
 If you want to follow the high-level goings-on of the Exercism project, watch the [discussions][] repository, and sign up for the [newsletter][].
 
+You can also check out our high-level [roadmap][].
+
 ## The Product
 
 The product consists of a website and a command-line client (CLI).
 
-We are currently investing our efforts in design research and product design.
+We are currently investing our efforts in design research and product design towards a complete redesign and re-implementation of the website. As such, we would recommend that you do not invest time and effort in submitting changes to the website at this time.
 
-While we welcome fixes and improvements to the existing site, we are taking a step back from it and doing design research from scratch. You can read more about this in the article [The Delightful Design of Exercism][design-of-exercism].
+You can read more about our decision to do a full redesign in the article [The Delightful Design of Exercism][design-of-exercism], and the results of our first six months of work in the [resulting design documents][ux-insights].
 
-The website lives in the [exercism/exercism.io][exercism-io] GitHub repository, whereas the CLI is in [exercism/cli][cli].
+You can get an overview of how the current product is put together in the [architecture][] document.
 
 ## The Curriculum
 
-The curriculum is much more like a traditional open source project than the product is. It consists of many small, well-defined components, and it is a lot easier to contribute to.
+The curriculum is much more like a traditional open source project than the product is. It consists of many small, well-defined components. If you wish to contribute to Exercism, we highly recommend contributing to the individual language tracks that make up the curriculum, or to the common pool of problem specifications.
 
-The goal of the curriculum is to create many small, trivial exercises. These provide lots of achievable challenges, giving people many small wins.
+You can read more about [what our aim is for a language track[goals-exercism].
 
-There is a common pool of exercises and the exercises are implemented in many different programming languages.
+### The Problem Specifications
 
-We have a library, [Trackler][trackler], that provides a unified interface to the entire curriculum.
-
-### The Common Pool
-
-An exercise is a description of a problem to solve. This description is not specific to any particular programming language or library or tool.
+A problem specification is a description of a problem to solve. This description is not specific to any particular programming language or library or tool.
 
 An example is:
 
@@ -41,7 +39,7 @@ An example is:
 
 You could do this on the back of a napkin, or on a whiteboard, or by writing code.
 
-There are many ways to contribute to the common pool:
+There are many ways to contribute to the problem specifications.
 
 - fix typos
 - improve exercise descriptions
@@ -50,19 +48,15 @@ There are many ways to contribute to the common pool:
 - make up more exercises
 - define canonical data-sets to make it easier to implement the exercise
 
-The common pool is maintained in the [exercism/problem-specifications][problem-specifications] repository.
+Th common pool of problem specifications is maintained in the [exercism/problem-specifications][problem-specifications] repository. You can check out the [open issues][problem-specifications-issues].
 
 ### The Language Tracks
 
-A programming language that implements exercises from the common pool is called a _language track_.
+Each language track implements exercises. These may be based on a problem specification from the common pool, or it may be a custom exercise defined specifically for that programming language.
 
-A language-specific implementation of an exercise consists of a collection of automated tests, that define the requirements of the solution.
+Each exercise consists of an mininum a README describing the problem to solve, and a collection of automated tests define the requirements of the solution. A good test suite will not mandate a particular approach, but will allow people to try many different approaches, and solve the exercise in many different ways.
 
-A good test suite will not mandate a particular approach, but will allow people to try many different approaches, and solve the exercise in many different ways.
-
-There are many ways to contribute to a language track, described in the document [Getting Involved in a Language Track][getting-started-track].
-
-You can navigate to the repository for any language track on Exercism via the [trackler][trackler-tracks] library. This list includes both active and upcoming tracks, as well as tracks that have been requested where no work has yet been done.
+There are many ways to [contribute to a language track][getting-started-track]. You can find the repositories for the current language tracks in the list of repositories tagged with [exercism-track][track-topic].
 
 [exercism-io]: https://github.com/exercism/exercism.io
 [cli]: https://github.com/exercism/cli
@@ -71,6 +65,9 @@ You can navigate to the repository for any language track on Exercism via the [t
 [newsletter]: http://tinyletter.com/exercism
 [design-of-exercism]: http://tinyletter.com/exercism/letters/the-delightful-design-of-exercism
 [problem-specifications]: https://github.com/exercism/problem-specifications
-[getting-started-track]: https://github.com/exercism/exercism.io/tree/master/docs/getting-involved-in-a-track.md
-[trackler]: https://github.com/exercism/trackler
-[trackler-tracks]: https://github.com/exercism/trackler/tree/master/tracks
+[problem-specifications-issues]: https://github.com/exercism/problem-specifications/issues
+[getting-started-track]: /contributing-to-language-tracks/README.md
+[ux-insights]: /about/conception/README.md
+[architecture]: /about/architecture.md
+[exercism-track]: https://github.com/search?q=org%3Aexercism+topic%3Aexercism-track
+[roadmap]: /about/roadmap.md

@@ -42,3 +42,5 @@ The `config.json` is used by [trackler][], which is a light wrapper around the e
 We have [automated linting of the track configuration][configlet-lint].
 
 [configlet-lint]: /language-tracks/configuration/linting.md
+[trackler]: https://github.com/exercism/trackler
+[configlet]: https://github.com/exercism/configlet

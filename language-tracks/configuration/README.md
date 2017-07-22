@@ -4,7 +4,6 @@ The configuration for a language track lives in a file named `config.json` in th
 
 This file has the following keys:
 
-* **track_id** (string) a URL-friendly identifier for the language track.
 * **language** (string) the official name of the programming language.
 * **active** (boolean) whether the track is active on the site.
 * **foregone** (array of strings) a list of problem specification slugs that the track maintainers have decided not to implement.

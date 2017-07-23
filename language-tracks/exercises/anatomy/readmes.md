@@ -102,4 +102,5 @@ The `config/exercise-readme-inserts.md` gets included in _all_ the exercise READ
 
 Anything that is specific to just one exercise, should be added to the `exercises/$SLUG/.meta/hints.md` file.
 
-[problem-specifications]: http://github.com/exercism/problem-specifications/tree/master/exercises
+[problem-specifications]: https://github.com/exercism/problem-specifications/tree/master/exercises
+[configlet]: https://github.com/exercism/configlet

@@ -4,9 +4,9 @@
 
 Before adding a new exercise, consider whether this is an exercise that is relevant to just one language, or could be reused or adapted across multiple Exercism language tracks.
 
-If your exercises is relevant to several tracks, then you will create a _generic_ problem specification. If your exercise is relevant only to a specific programming language, then you will create a _custom_ specification within the language track repository.
+If your exercises is relevant to several tracks, then you will create a _generic_ problem specification in a shared repository. If your exercise is relevant only to a specific programming language, then you will create a _custom_ specification within the language track repository.
 
-## Overall Process
+## Problem Specification
 
 Whether you are creating a generic or a custom exercise, the basic idea is the same. Some details will differ, and these are described in detail below.
 
@@ -15,9 +15,6 @@ Whether you are creating a generic or a custom exercise, the basic idea is the s
 * Write a _blurb_, which is a one-sentence summary of the problem to be solved.
 * Write a more detailed _description_ of the problem to be solved.
 * Reference the _source_ of inspiration for the exercise.
-* Create an implementation of the problem specification for a language track.
-
-### Basic Problem Specification
 
 The basic problem specification consists of two files. Where these files live will depend on whether you're creating a generic or custom exercise.
 
@@ -34,9 +31,9 @@ source_url: "http://example.com/reference"
 
 ### Generic Problem Specifications
 
-Problem specifications live in the [exercism/problem-specifications][problem-specifications] repository, with the [exercises directory][spec-exercises].
+Generic problem specifications live in the [exercism/problem-specifications][problem-specifications] repository, with the [exercises directory][spec-exercises].
 
-A specification consists of three files in a directory named after the slug (`hello-world`, in this case):
+A generic specification consists of three files in a directory named after the slug (`hello-world`, in this case):
 
 ```
 exercises/
@@ -46,7 +43,7 @@ exercises/
     └── metadata.yml
 ```
 
-Generic problem specifications contain an additional metadata file, `canonical-data.json`. This contains a set of test inputs and outputs that make up a reasonable test suite. Since this is a new exercise, you might want to first implement the test suite for the track in question, and then, based on your discoveries as you implement the test suite, create the canonical data.
+The `canonical-data.json` file contains a set of sample test inputs and outputs that make up a reasonable test suite. Since you are creating a new exercise, you might want to implement a test suite for the track in question and then create the canonical data, based on your discoveries and insights from having written an actual test suite.
 
 Some general guidelines:
 
@@ -72,7 +69,7 @@ exercises/
         └── metadata.yml
 ```
 
-Once you've added these, you can follow the directions for [implementing an exercise from specification][porting-an-exercise].
+Once you've defined these, you can submit them along with your pull request that [implements the exercise][porting-an-exercise].
 
 [problem-specifications]: https://github.com/exercism/problem-specifications
 [spec-exercises]: https://github.com/exercism/problem-specifications/tree/master/exercises

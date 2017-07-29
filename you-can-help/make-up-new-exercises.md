@@ -10,7 +10,7 @@ If your exercises is relevant to several tracks, then you will create a _generic
 
 Whether you are creating a generic or a custom exercise, the basic idea is the same. Some details will differ, and these are described in detail below.
 
-* First, choose a name for your exercise. The name must be unique. Verify the list of [generic problem specifications][spec-execises], as well as the language track in question (navigate to the `exercises` directory in the repository).
+* First, choose a name for your exercise. The name must be unique. Verify the list of [generic problem specifications][spec-exercises], as well as the language track in question (navigate to the `exercises` directory in the repository).
 * Derive the _slug_ of the exercise from the name by making the name all lowercase and separating words using hyphens.
 * Write a _blurb_, which is a one-sentence summary of the problem to be solved.
 * Write a more detailed _description_ of the problem to be solved.

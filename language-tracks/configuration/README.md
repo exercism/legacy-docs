@@ -11,8 +11,9 @@ This file has the following keys:
 * **exercises** (array of objects) the metadata for implemented exercises.
 * **test_pattern** (string) _(optional)_ a regex pattern that test filenames will match. It is used to determine which files will be visible on a problem's test-suite page on the exercism.io site. The default value used if this key is not present is `/test/i`.
 * **ignore_pattern** (string) _(optional)_ a regex pattern that will cause files matching it to not be served by the `exercism fetch` command. The default value used if this key is not present is `/example/i`.
-* **solution_pattern** (string) _(optional)_ a regex pattern that matches solution files in the track repository. If not present, it defaults to `/[Ee]xample/`
+* **solution_pattern** (string) _(optional)_ a regex pattern that matches solution files in the track repository. If not present, it defaults to `/[Ee]xample/`.
 
+_See https://golang.org/s/re2syntax for more information on the supported syntax for regular expression patterns._
 ## Exercise metadata
 
 The `exercises` consists of an array of objects, each of which defines the metadata for an exercise.

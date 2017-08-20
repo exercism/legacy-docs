@@ -22,7 +22,7 @@ need to have a copy of that repository locally on disk, in the same directory as
 Assuming that you are in the root of the track repository, generate the README for an exercise with the slug `foo` using the following command:
 
 ```
-configlet generate . --only foo`
+configlet generate . --only foo
 ```
 
 The command is build up as follows:

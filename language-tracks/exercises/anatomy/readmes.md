@@ -92,7 +92,7 @@ It's possible to submit an incomplete solution so you can see how others have co
 
 The problem descriptions in the [problem-specifications][problem-specifications] repository tread a very fine line between useful ambiguity and confusing vagueness. Because the shared problem description is the same whether you're solving the problem in C++ or in Lua, it needs to be high-level enough to allow for the syntactic, semantic, and philosophical differences in the various languages.
 
-Having said that, each track is free to write a more specific description if they want to, placing it either in the `.meta/description.md`, or directly into the README template.
+Having said that, each track is free to write a more specific description if they want to by creating their own `description.md` file and placing it in the exercise's `.meta` directory.
 
 ### Track Hints
 

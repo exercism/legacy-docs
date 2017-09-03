@@ -1,12 +1,33 @@
 # Writing Language Track Documentation
 
+The user-facing documentation lives in the `docs/` directory in the language track repository.
+
+## Installation and setup
+
+```
+docs/INSTALLATION.md
+```
+
 If someone is going to use Exercism to ramp up in a new programming language, they are going to need to get their local environment set up so that they can solve the problems in that language.
 
 At the very minimum, people will need to know:
 
 0. how to install the programming language on their machine
 0. how to install any necessary dependencies
+
+
+## How to run the tests
+
+```
+docs/TESTS.md
+```
+
+
 0. how to run the tests
+
+
+
+
 
 We also like to add some other goodies, for example:
 

@@ -1,19 +1,33 @@
 # Language Tracks
 
-The goal of a language track is to give people a way to achieve a high level of fluency in the programming language, but at a low level of proficiency. Read more about the distinction between fluency and proficiency in the [goals of Exercism][goal-track] document.
+A language track on Exercism is meant to bridge the awkward gap between "hello world" and feeling productive.
+We're aiming for a high degree of fluency in the basic syntax, standard library, and idioms of the language.
+In other words, a [high degree of fluency at a low level of proficiency](/about/goal-of-exercism.md).
 
-Each track should have the following:
+Each track has lots of small exercises, providing many opportunities for practice and lots of small wins.
+Each exercise consists of a pre-written test suite, simulating Test-Driven Development, and providing a clear definition of "done".
 
-* **README.md** - an explanation about how to contribute to the track
-* **config.json** - the configuration file that defines the track ([see details][config-json]).
-* **docs** containing user-facing documentation for the track ([see details][docs]).
-* **exercises** containing all the exercises, each in a separate directory ([see details][exercises]).
-* **config** containing files to help generate exercise READMEs and potentially other track-level configuration files ([see details][readmes]).
+A track lives in its own repository.
+Working on the exercises themselves should be like working on any project in that programming language.
+Since it is part of the larger Exercism ecosystem, there are some conventions to follow, and some necessary Exercism-specific configuration.
 
-The starting template for a track can be found in the [request-new-language-track repository](https://github.com/exercism/request-new-language-track).
+## Request a new track
 
-[goal-track]: /about/goal-of-exercism.md
-[docs]: /language-tracks/documentation/for-consumers.md
-[config-json]: /language-tracks/configuration/README.md
-[exercises]: /language-tracks/exercises/README.md
-[readmes]: /language-tracks/exercises/anatomy/readmes.md
+If there is a programming language that you love or are curious about, but that we don't yet support on Exercism open an issue in the [exercism/request-new-language-track](https://github.com/exercism/request-new-language-track/issues) repository.
+We can chat about what it would take to add it.
+
+## Contribute to an existing track
+
+If you want to help improve one of the existing language tracks, take a look at our [guide to getting involved](/contributing-to-language-tracks/README.md).
+
+## Launch a track
+
+To include a track on the site we need user-facing documentation, some tooling, mentors, and—of course—exercises for people to solve.
+
+If you've requested a track and are ready to get it going, or if you've decided to adopt one of the unmaintained tracks, check out the [launch guide](/language-tracks/launch/README.md).
+
+## Maintain a track
+
+Tracks tend to require some ongoing maintenance.
+We provide support when people ask questions, support new contributors, review pull requests, improve tooling, and add and improve exercises.
+We've written down some of the tips, tricks, and hard-earned lessons that we've picked up over the past few years in the [track maintainer](/maintaining-a-track/README.md) documentation.

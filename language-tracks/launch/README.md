@@ -7,7 +7,7 @@ Before digging into code and documentation, you'll need to [make some decisions]
 Having that sorted out, start [implementing the first exercise](/language-tracks/launch/first-exercise.md).
 This is where we'll uncover any missed assumptions, tricky setup, or tweaks we'll need to make in order to support the language on Exercism.
 
-Then implement a second exercise (maybe [two-fer](http://github.com/exercism/problem-specifications/tree/master/exercises/two-fer) or [leap](http://github.com/exercism/problem-specifications/tree/master/exercises/leap).
+Then implement a second exercise, maybe [two-fer](http://github.com/exercism/problem-specifications/tree/master/exercises/two-fer) or [leap](http://github.com/exercism/problem-specifications/tree/master/exercises/leap).
 This will put you in a good spot to figure out basic [tooling and continuous integration](/language-tracks/launch/tooling-and-ci.md), and get the track into [preview-mode](/language-tracks/launch/preview-mode.md) on the site.
 
 At this point you should be able to accept contributions from strangers.

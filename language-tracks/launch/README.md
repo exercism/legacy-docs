@@ -11,7 +11,7 @@ Then implement a second exercise (maybe [two-fer](http://github.com/exercism/pro
 This will put you in a good spot to figure out basic [tooling and continuous integration](/language-tracks/launch/tooling-and-ci.md), and get the track into [preview-mode](/language-tracks/launch/preview-mode.md) on the site.
 
 At this point you should be able to accept contributions from strangers.
-Write some [contributing documentation](/language-tracks/documentation/for-contributors.md), decide on the next 10 exercises that should be implemented, and [open issues](/language-track/launch/open-issues.md) for each one, including enough context in each issue that someone could come in off the street and figure out what needs to be done to open a pull request.
+Write some [contributing documentation](/language-tracks/documentation/for-contributors.md), decide on the next 10 exercises that should be implemented, and [open issues](/language-tracks/launch/open-issues.md) for each one, including enough context in each issue that someone could come in off the street and figure out what needs to be done to open a pull request.
 
 Then put the word out that you're looking for help getting the track implemented.
 With specific issues that contain all the necessary context it's very easy for people to drop in and be productive.

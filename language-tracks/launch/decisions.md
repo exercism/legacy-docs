@@ -25,7 +25,7 @@ Are we likely to support multiple variants in the future?
 
 Before we can bootstrap a new track repository we need to settle on both the name by which we refer to the programming language itself as well as the URL-friendly ID that will be used everywhere.
 
-Sometimes these are the same aside from capitalization (e.g. _Haskell_ vs `haskell`, _Go_ vs `go`), other times the track ID is a normalized version of the language name (e.g. _C#_ vs `csharp`, _C++_ vs `cpp`, _PL/SQL_ vs `plqsl`).
+Sometimes these are the same aside from capitalization (e.g. _Haskell_ vs `haskell`, _Go_ vs `go`), other times the track ID is a normalized version of the language name (e.g. _C#_ vs `csharp`, _C++_ vs `cpp`, _PL/SQL_ vs `plsql`).
 
 ### Installation and dependencies
 

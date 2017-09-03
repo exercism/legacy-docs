@@ -4,7 +4,7 @@ At this point you should [have a repository to work in](https://github.com/exerc
 
 Before digging into code and documentation, you'll need to [make some decisions](/language-tracks/launch/decisions.md) about the track.
 
-Having gotten that sorted out, start [implementing the first exercise](/language-tracks/launch/first-exercise.md).
+Having that sorted out, start [implementing the first exercise](/language-tracks/launch/first-exercise.md).
 This is where we'll uncover any missed assumptions, tricky setup, or tweaks we'll need to make in order to support the language on Exercism.
 
 Then implement a second exercise (maybe [two-fer](http://github.com/exercism/problem-specifications/tree/master/exercises/two-fer) or [leap](http://github.com/exercism/problem-specifications/tree/master/exercises/leap).

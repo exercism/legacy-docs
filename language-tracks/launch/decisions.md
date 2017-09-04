@@ -57,13 +57,12 @@ Remember that all Exercism exercises are by nature very small, so there's no nee
 
 There are a number of considerations to take into account when deciding on a naming scheme for exercise files.
 
-0. the naming scheme should be idiomatic for the language and testing framework
-0. if the command to run the tests is different for different exercises, we want to be able to generate the command
-0. the Exercism tooling needs to be able to identify the test file and reference solution
+1. The naming scheme should be idiomatic for the language and testing framework.
+1. The naming convention should be consistent.
+1. If the command to run the tests is different for different exercises, we want to be able to generate the command.
+1. The Exercism tooling needs to be able to identify the test file and reference solution.
 
 In Exercism we want to be as true to the language as possible, since we're aiming to get people conversant with the common idioms and practices as possible.
 
 In some programming languages it might not make sense to talk about "test file" and "solution file".
 That's probably fine, but it might require us to jump through some hoops to get everything working.
-
-In terms of naming, though, as long as it's consistent, we should be fine.

@@ -23,5 +23,5 @@ In this case we're adding more exercises so we can launch the new track, we're a
 ## Bulk issues
 
 There's a command-line tool, [Hub](http://github.com/github/hub), which makes it easy to prepare a template issue and submit issues in bulk.
-You can also the [GitHub API directly](https://developer.github.com/v3/issues/#create-an-issue), or using an API client.
+You can also access the [GitHub API directly](https://developer.github.com/v3/issues/#create-an-issue), or by using an API client.
 

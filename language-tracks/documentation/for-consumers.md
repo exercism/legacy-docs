@@ -12,8 +12,8 @@ If someone is going to use Exercism to ramp up in a new programming language, th
 
 At the very minimum, people will need to know:
 
-0. how to install the programming language on their machine
-0. how to install any necessary dependencies
+1. how to install the programming language on their machine
+1. how to install any necessary dependencies
 
 
 ## How to run the tests
@@ -21,13 +21,6 @@ At the very minimum, people will need to know:
 ```
 docs/TESTS.md
 ```
-
-
-0. how to run the tests
-
-
-
-
 
 We also like to add some other goodies, for example:
 

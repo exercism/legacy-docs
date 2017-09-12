@@ -35,7 +35,7 @@ The command is build up as follows:
 
 ## The README Template
 
-Each track has a default template in `$TRACK_ROOT/config/exercise-readme.go.tmpl`, and an exercise may override that template by placing a `readme.go.tmpl` file in the exercise's `.meta` directory.
+Each track has a default template in `$TRACK_ROOT/config/exercise-readme.go.tmpl`, and an exercise may override that template by creating a `$TRACK_ROOT/exercises/$SLUG/.meta/readme.go.tmpl` file.
 
 The template is written using Go's [text/template][text-template] package.
 

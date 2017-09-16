@@ -137,7 +137,7 @@ Are you a language enthusiast?  Help other people fall in love with your languag
 
 - Give feedback on other's submissions in your [activity stream][activity-stream].
 - Help others get unstuck in the [support chat][chat].
-- However you support others, aim to do it [the Exercism way][providing-feedback].
+- However you support others, aim to do it [the Exercism way][feedback].
 
 #### Contributing to a Language Track
 
@@ -198,7 +198,7 @@ Do you like mentoring people?
 [how-to-exercise-readmes]: /language-tracks/exercises/anatomy/readmes.md
 [discussions-docs]: https://github.com/exercism/discussions/issues?q=is%3Aissue+is%3Aopen+documentation+sort%3Aupdated-desc
 [docs-issues]: https://github.com/exercism/docs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
-[org-issues-dogs]: https://github.com/search?o=desc&p=1&q=org%3Aexercism+documentation+is%3Aissue&ref=searchresults&s=updated&state=open&type=Issues&utf8=%E2%9C%93
+[org-issues-docs]: https://github.com/search?o=desc&p=1&q=org%3Aexercism+documentation+is%3Aissue&ref=searchresults&s=updated&state=open&type=Issues&utf8=%E2%9C%93
 [activity-stream]: http://exercism.io/inbox
 [exercism-good-first-patch]: https://github.com/exercism/exercism.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+patch%22
 [cli-repo]: https://github.com/exercism/cli

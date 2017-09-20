@@ -35,7 +35,7 @@ The command is build up as follows:
 
 ## The README Template
 
-Each track has a default template in `./config/exercise-readme.go.tmpl`, and an exercise may override that template by placing a `readme.go.tmpl` file in the exercise's `.meta` directory.
+Each track has a default template in `$TRACK_ROOT/config/exercise-readme.go.tmpl`, and an exercise may override that template by creating a `$TRACK_ROOT/exercises/$SLUG/.meta/readme.go.tmpl` file.
 
 The template is written using Go's [text/template][text-template] package.
 
@@ -45,7 +45,7 @@ There are a number of values available in the template:
 
 - `.Spec.Slug` - the exercise's slug
 - `.Spec.Name` - the wordified slug
-- `.Spec.Description` - the contents of the `description.md` file
+- `.Spec.Description` - the contents of the optional `$TRACK_ROOT/exercises/$SLUG/.meta/description.md` file
 - `.Spec.Source` - a textual description of where the idea for the exercise came from (optional)
 - `.Spec.SourceURL` - a link to something about the source (optional)
 - `.Spec.Credits` - combines source and source_url into a readable bit of metadata
@@ -65,7 +65,7 @@ You don't need much of the Go text/template language. The three things that are 
 
 ### Default Template
 
-The default contents of `config/exercise-readme.go.tmpl` is below.
+The default contents of `$TRACK_ROOT/config/exercise-readme.go.tmpl` is below.
 
 ```
 # {{ .Spec.Name }}
@@ -96,11 +96,11 @@ Having said that, each track is free to write a more specific description if the
 
 ### Track Hints
 
-The `config/exercise-readme-inserts.md` gets included in _all_ the exercise READMEs for the track, and mustn't refer to specific problems or files. It should contain helpful, generic information about solving an exercism problem in the language of the track, for example hints about how to run the tests or where to get help.
+The `$TRACK_ROOT/config/exercise-readme-inserts.md` gets included in _all_ the exercise READMEs for the track, and mustn't refer to specific problems or files. It should contain helpful, generic information about solving an exercism problem in the language of the track, for example hints about how to run the tests or where to get help.
 
 ### Exercise Hints
 
-Anything that is specific to just one exercise, should be added to the `exercises/$SLUG/.meta/hints.md` file.
+Anything that is specific to just one exercise, should be added to the `$TRACK_ROOT/exercises/$SLUG/.meta/hints.md` file.
 
 [problem-specifications]: https://github.com/exercism/problem-specifications/tree/master/exercises
 [configlet]: https://github.com/exercism/configlet

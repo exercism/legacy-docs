@@ -14,4 +14,4 @@ This file has the following keys:
 * **solution_pattern** (string) _(optional)_ a regex pattern that matches solution files in the track repository. If not present, it defaults to `/[Ee]xample/`
 * **foregone** (array of strings) a list of problem specification slugs that the track maintainers have decided not to implement.
 
-The format of the `exercises` array is described in detail [here](/language-tracks/configuration/track.md).
+The format of the `exercises` array is described in detail [here](/language-tracks/configuration/exercises.md).

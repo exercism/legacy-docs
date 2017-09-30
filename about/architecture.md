@@ -9,7 +9,7 @@ The main components that make up Exercism are:
 
 ### The Website
 
-The [exercism.io](http://exercism.io/) website is a vital part of the [product](https://github.com/exercism/exercism.io/blob/master/docs/overview-of-exercism.md#the-product). The community uses the site to:
+The [exercism.io](http://exercism.io/) website is a vital part of the [product](https://github.com/exercism/docs/blob/master/about/README.md#the-product). The community uses the site to:
 
 - get an overview of the available problems and languages
 - provide and receive feedback

@@ -59,7 +59,7 @@ The exercises often start out as an experiment. As people do the exercises we le
 
 Over time we try to:
 
-- improve the problem descriptions in [exercism/problem-specifications](github.com/exercism/problem-specifications)
+- improve the problem descriptions in [exercism/problem-specifications](https://github.com/exercism/problem-specifications)
 - add missing edge cases in the test suites
 - reorder tests to allow a more incremental approach to solving the problem
 - improve the test suites to avoid pushing people towards specific solutions

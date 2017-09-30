@@ -183,7 +183,7 @@ helpful:
 
 * [Git for Ages 4 and Up](https://www.youtube.com/watch?v=1ffBJ4sVUb4) - video of a presentation/demo
 * [Think Like a Git](http://think-like-a-git.net/)
-* [Explain Git with D3](http://www.wei-wang.com/ExplainGitWithD3) - interactive site
+* [Explain Git with D3](https://onlywei.github.io/explain-git-with-d3/) - interactive site
 * [Pro Git](http://git-scm.com/book/en/v2) - "The Book" for learning Git in detail
 * [Git Branching Tutorial](http://pcottle.github.io/learnGitBranching/) - interactive tutorial, very visual
 

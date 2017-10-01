@@ -147,4 +147,4 @@ You'll need to add an object to the array following the details the [exercise co
 Verify the configuration by running `configlet lint .`.
 You may need to add some [track-level configuration](/language-tracks/configuration/track.md).
 
-Once `lint` is happy, run `configlet fmt .`, which 
+Once `lint` is error free, run `configlet fmt .`, this will format the configuration files `config.json` and `maintainers.json`. Formatting will ensure that both files have consistent JSON syntax and indentation.  Finally, formatting normalizes and alphabetizes the exercise topics within `config.json`.

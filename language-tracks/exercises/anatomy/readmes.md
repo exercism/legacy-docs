@@ -44,7 +44,7 @@ There are a number of values available in the template:
 `.Spec` represents the problem specification, which is either a shared specification from [problem-specifications][], or a custom specification found in the exercise's `.meta` directory. The following values on `.Spec` can be referenced within the template:
 
 - `.Spec.Slug` - the exercise's slug
-- `.Spec.Name` - the wordified slug
+- `.Spec.Name` - a human-readable form of the exercise's name. If present in the specification, this is the `title`, otherwise it is the wordified slug
 - `.Spec.Description` - the contents of the optional `$TRACK_ROOT/exercises/$SLUG/.meta/description.md` file
 - `.Spec.Source` - a textual description of where the idea for the exercise came from (optional)
 - `.Spec.SourceURL` - a link to something about the source (optional)

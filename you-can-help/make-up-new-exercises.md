@@ -25,6 +25,7 @@ The `metadata.yml` contains the blurb and source. It has the following structure
 ```
 ---
 blurb: "A one-sentence summary of the problem to be solved."
+title: "An *optional* field containing the name of this exercise if the default algorithm does not correctly convert the slug to the correct name. The default algorithm capitalises the first letter of each hyphen-separated word. If the default algorithm correctly converts the slug, this field can/should be omitted."
 source: "A textual description of where this was found, or what inspired it."
 source_url: "http://example.com/reference"
 ```

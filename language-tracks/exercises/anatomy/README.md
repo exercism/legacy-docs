@@ -44,15 +44,15 @@ There are three metadata files:
 
 ### Description.md
 
-Format, valid/required/default keys, example.
+TODO: Format specification, example.
 
 ### Metadata.yml
 
-Format, valid/required/default keys, example.
+TODO: Format specification, valid/required/default keys, example.
 
 ### canonical-data.json
 
-Has it's own documentation. See: TODO
+TODO: Link to existing documentation.
 
 
 ## Reference Solution

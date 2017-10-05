@@ -8,7 +8,7 @@ fixed.
 
 The goal of triaging issues is to make sure that each issue is actionable.
 
-A great issue also has enough context that it could be tackled by someone who has never contributed
+A great issue has enough context that it could be tackled by someone who has never contributed
 to Exercism before.
 
 When reading an issue you should be able to answer questions like...

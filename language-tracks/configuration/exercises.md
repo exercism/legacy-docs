@@ -59,6 +59,7 @@ Use a scale from 1 to 10.
 
 We show the topics for an exercise on the website.
 This lets people optimize the learning experience to their own interests—skipping topics that they are not interested in, or that they already know a lot about, and doing deeper dives into topics that they're curious about.
+Take a look at the (non-exhaustive) [topics list][topics] for suggestions of topics to add.
 
 ## Deprecating exercises
 
@@ -71,3 +72,4 @@ Exercises can be deprecated, in which case they must have the following:
 All other fields in deprecated exercises can be deleted.
 
 [configlet]: /language-tracks/configuration/configlet.md
+[topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt

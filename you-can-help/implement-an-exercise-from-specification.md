@@ -101,16 +101,7 @@ that the exercise is coherent.
 
 Add a new entry in the `exercises` key in the `config.json` file in the root of the repository.
 
-Add the slug, estimate the difficulty level. Topics are optional, but can be really helpful.
-
-
-    {
-      "slug": <slug>,
-      "difficulty": <a number from 1 to 10>,
-      "topics": [ ]
-    }
-
-Take a look at the (non-exhaustive) [topics list][topics] and see if any of these make sense.
+See the [exercise configuration document][exercises] for a detailed description of what you need to add to this entry.
 
 We have a tool, [configlet][configlet] that will help make sure that everything is configured right.
 Download that and run it against the track repository.

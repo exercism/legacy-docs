@@ -2,8 +2,8 @@
 
 [problem-specifications]: http://github.com/exercism/problem-specifications/tree/master/exercises
 [support-chat]: https://gitter.im/exercism/support
-[topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt
 [configlet]: https://github.com/exercism/configlet#configlet
+[exercises]: /language-tracks/configuration/exercises.md
 
 Exercism has a lot of exercises in a lot of languages.
 

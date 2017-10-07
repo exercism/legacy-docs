@@ -72,3 +72,4 @@ Exercises can be deprecated, in which case they must have the following:
 All other fields in deprecated exercises can be deleted.
 
 [configlet]: /language-tracks/configuration/configlet.md
+[topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt

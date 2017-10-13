@@ -56,7 +56,7 @@ Each language track implements exercises. These may be based on a problem specif
 
 Each exercise consists of an mininum a README describing the problem to solve, and a collection of automated tests define the requirements of the solution. A good test suite will not mandate a particular approach, but will allow people to try many different approaches, and solve the exercise in many different ways.
 
-There are many ways to [contribute to a language track][getting-started-track]. You can find the repositories for the current language tracks in the list of repositories tagged with [exercism-track][track-topic].
+There are many ways to [contribute to a language track][getting-started-track]. You can find the repositories for the current language tracks in the list of repositories tagged with [exercism-track][].
 
 [exercism-io]: https://github.com/exercism/exercism.io
 [cli]: https://github.com/exercism/cli

@@ -27,7 +27,7 @@ You can get an overview of how the current product is put together in the [archi
 
 The curriculum is much more like a traditional open source project than the product is. It consists of many small, well-defined components. If you wish to contribute to Exercism, we highly recommend contributing to the individual language tracks that make up the curriculum, or to the common pool of problem specifications.
 
-You can read more about [what our aim is for a language track[goals-exercism].
+You can read more about [what our aim is for a language track][goals-exercism].
 
 ### The Problem Specifications
 
@@ -56,7 +56,7 @@ Each language track implements exercises. These may be based on a problem specif
 
 Each exercise consists of an mininum a README describing the problem to solve, and a collection of automated tests define the requirements of the solution. A good test suite will not mandate a particular approach, but will allow people to try many different approaches, and solve the exercise in many different ways.
 
-There are many ways to [contribute to a language track][getting-started-track]. You can find the repositories for the current language tracks in the list of repositories tagged with [exercism-track][track-topic].
+There are many ways to [contribute to a language track][getting-started-track]. You can find the repositories for the current language tracks in the list of repositories tagged with [exercism-track][].
 
 [exercism-io]: https://github.com/exercism/exercism.io
 [cli]: https://github.com/exercism/cli
@@ -71,3 +71,4 @@ There are many ways to [contribute to a language track][getting-started-track]. 
 [architecture]: /about/architecture.md
 [exercism-track]: https://github.com/search?q=org%3Aexercism+topic%3Aexercism-track
 [roadmap]: /about/roadmap.md
+[goals-exercism]: /about/goal-of-exercism.md

@@ -20,7 +20,7 @@ store it in a file called `canonical-data.json` alongside the language-agnostic
 problem description in the [problem-specifications][] repository.
 
 This makes it easier to port the exercises to new language tracks, as well as
-propogate changes to the exercises that have already been implemented in
+propagate changes to the exercises that have already been implemented in
 many tracks.
 
 ## Extracting Canonical Test Data

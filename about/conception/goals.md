@@ -6,7 +6,7 @@ We've grouped the goals into two categories—those that we think fit with Exerc
 
 Understanding [what Exercism is and what it is not][goals-of-exercism] will enable us to make it the best product possible.
 
-For people who come to Exercism looking for the out of scope goals we will endevour to point them to other websites, projects, or resources that might better suit their needs.
+For people who come to Exercism looking for the out of scope goals we will endeavour to point them to other websites, projects, or resources that might better suit their needs.
 
 #### In scope
 - Learn a language

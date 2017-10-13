@@ -22,7 +22,7 @@ The characteristics of a good individual test are:
 - a readable and understandable failure message
 - does not duplicate the expectations of another test
 
-Many testing frameworks randomize the order in which tests are run. Under normal circumstances this is desireable, since it helps enforce tests that are indpendent of each other. In the context of Exercism, however, this can be confusing. When someone begins to solve an exercise, getting all the failures for all the tests in random order can make it hard to know where to begin solving the problem.
+Many testing frameworks randomize the order in which tests are run. Under normal circumstances this is desirable, since it helps enforce tests that are independent of each other. In the context of Exercism, however, this can be confusing. When someone begins to solve an exercise, getting all the failures for all the tests in random order can make it hard to know where to begin solving the problem.
 
 In order to provide a better user experience, some language tracks only leave the first test in an exercise test suite active. All subsequent tests are marked as "skipped" or "pending" using whatever method or directive that is provided by the testing framework. This means that the person solving the exercise must manually edit the test suite to activate the tests one by one as they write their solution.
 

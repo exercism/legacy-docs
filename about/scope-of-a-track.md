@@ -4,7 +4,7 @@
 
 ​There was an interesting conversation recently about what sort of exercises make sense for Exercism to include.
 
-I'd like to be able to give people a nice resource where they can learn introductory image analysis with Python and scikit-image, but in general it would be nice to be able to support any third party library or skillset. I feel that just adding some exercises into the general Python problem set would be problematic since having external libraries is its own can of worms, and you'd also get a huge explosion of exercises once everyone adds their favorite library.
+> I'd like to be able to give people a nice resource where they can learn introductory image analysis with Python and scikit-image, but in general it would be nice to be able to support any third party library or skillset. I feel that just adding some exercises into the general Python problem set would be problematic since having external libraries is its own can of worms, and you'd also get a huge explosion of exercises once everyone adds their favorite library.
 [—Jim Rybarski](https://github.com/jimrybarski), [exercism/exercism.io#3113](https://github.com/exercism/exercism.io/issues/3113)
 
 This sparked a very lively discussion with lots of excellent points about what the purpose of Exercism is, the value and danger of relying on 3rd party libraries, and whether or not the introduction of this type of Exercise would change the platform so much that it would be unrecognizable. It's a great discussion, and you should go read it.
@@ -17,21 +17,7 @@ That makes it really difficult to explain, and it also makes it harder to discus
 
 Over the past few months I've started to gain an understanding about what Exercism aims to be.
 
-Exercism is based on the idea that you can develop a high degree of fluency even at a low level of proficiency. In other words, you can be extremely fluent in the basic syntax, idioms, conventions, and standard library of a programming language, without being able to solve real-world problems in that language.
-
-This is useful, because it frees up cognitive resources. Once you have the fluency at the basic level, it is much easier to improve your proficiency, and then ratchet up your fluency.
-
-**Fluency** is described by the Language Hunters project as:
-
-`"What you can say when you’re woken up in the middle of the night with a flashlight in your face."`
-
-The Language Hunters describe ***four levels*** of proficiency where you have the ability to express and understand:
-1. Very simple, concrete ideas. E.g. “Good music”. “Drink”.
-2. Simple, complete sentences. E.g. “How do I get to the party?”
-3. More complex, descriptive language, e.g. telling a story about what happened at the party.
-4. Complex political, social, economic topics, e.g. “Should parties be illegal?”
-
-Exercism targets a high level of fluency at a level of proficiency this more or less equivalent to level 2 here.
+Exercism is based on the idea that you can develop a high degree of fluency even at a low level of proficiency. Read on more about the Goal of Exercism [here](https://github.com/exercism/docs/blob/master/about/goal-of-exercism.md).
 
 Having used Exercism you should feel like you can express yourself without the syntax or standard library getting in your way. Your code should look and feel like that of a native. But that's it. This doesn't touch the real world at all.
 

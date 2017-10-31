@@ -17,7 +17,7 @@ That makes it really difficult to explain, and it also makes it harder to discus
 
 Over the past few months I've started to gain an understanding about what Exercism aims to be.
 
-Exercism is based on the idea that you can develop a high degree of fluency even at a low level of proficiency. Read on more about the Goal of Exercism [here](https://github.com/exercism/docs/blob/master/about/goal-of-exercism.md).
+Exercism is based on the idea that you can develop a high degree of fluency even at a low level of proficiency. Read more about the [Goal of Exercism](/about/goal-of-exercism.md).
 
 Having used Exercism you should feel like you can express yourself without the syntax or standard library getting in your way. Your code should look and feel like that of a native. But that's it. This doesn't touch the real world at all.
 

@@ -124,10 +124,10 @@ New exercise ideas are definitely welcome!  Here's how to ensure the idea lands 
 
 ### I would like to help; I can / want to get better at technical writing and organization
 
-- Find discussions about ways we'd like to improve our documentation: [exercism/discussions?documentation][discussions-docs]
-- Check out the [open issues][docs-issues] in the docs repository
+- Find discussions about ways we'd like to improve our documentation: [exercism/discussions?documentation][discussions-docs].
+- Check out the [open issues][docs-issues] in the docs repository.
 - Help make the instructions of an exercise more clear, interesting and/or engaging by [tweaking its README.md][how-to-exercise-readmes].
-- Issues across all of Exercism looking for help with documentation: [exercism?documentation][org-issues-docs]
+- Issues across all of Exercism looking for help with documentation: [exercism?documentation][org-issues-docs].
 
 ### I would like to help; I am fluent in / want to get better at a particular programming language
 
@@ -160,9 +160,9 @@ To hear about it when we're ready for input, feedback, thoughts, and opinions, w
 
 One of the more subtle but important parts of the Exercism experience is our CLI; it's written in Go.
 
-- Setup your local development environment for the CLI: [exercism/cli][cli-repo]
--  Locate a feature/bug to work on: [exercism/cli][cli-issues]
--  Work the issue: [the contribution workflow][contribution-workflow].
+- Setup your local development environment for the CLI: [exercism/cli][cli-repo].
+- Locate a feature/bug to work on: [exercism/cli][cli-issues].
+- Work the issue: [the contribution workflow][contribution-workflow].
 
 ### I would like to help; I know / want to get better at web design
 

@@ -45,24 +45,6 @@ For every exercise it will link to:
 - The canonical data (if it exists).
 - All the individual language implementations.
 
-## Avoiding Duplicate Work
-
-When you decide to implement an exercise, first check that there are no open pull requests
-for the same exercise.
-
-Then open a "work in progress" (WIP) pull request, so others will see that you're working on it.
-
-The way to open a WIP pull request even if you haven't done any work yet is:
-
-* Fork and clone the repository.
-* Check out a branch for the exercise.
-* Add an empty commit `git commit --allow-empty -m "Implement exercise <slug>"`
-  (replace <slug> with the actual name of the exercise).
-* Push the new branch to your repository, and open a pull request against that branch.
-
-Once you have added the actual exercise, then you can rebase your branch onto the upstream
-master, which will make the WIP commit go away.
-
 ## Implementing the Exercise
 
 You'll need to find the `slug` for the exercise. That's the URL-friendly identifier

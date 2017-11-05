@@ -24,27 +24,27 @@
 
 ### I see a problem on the website
 
-* If you're having trouble figuring out how to do something on the website, jump in the [online support chat][chat] and ask there.
+- If you're having trouble figuring out how to do something on the website, jump in the [online support chat][chat] and ask there.
 - Check out [exercism/exercism.io][exercism-bugs]'s repo for bugs; and while we might know there's an issue, any additional details sometimes can help.
 - If the website has a bug, you can help by [filing a bug report][filing-bug] in the [exercism/exercism.io][exercism-new-issue] repository.
   - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-web].
 
 ### I see a problem with the command-line client (CLI)
 
-* If you're having trouble installing or working with the CLI, ask for help in our [online support chat][chat].
+- If you're having trouble installing or working with the CLI, ask for help in our [online support chat][chat].
 - It may be a reported/known bug; check [exercism/cli][cli-bugs]'s repo for bugs.
 - If the CLI has a bug, you can help by [filing a bug report][filing-bug] in the [exercism/cli repository][cli-new-issue].
   - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-go].
 
 ### I see a problem getting started with a language
 
-* If you're having trouble with the setup instructions, ask for help in our [online support chat][chat].
+- If you're having trouble with the setup instructions, ask for help in our [online support chat][chat].
 - If you see a problem with the setup instructions, you can help by [filing a bug report][filing-bug] in the "Issues" section of the [corresponding language repository][track-repos].
   - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
 
 ### I see a problem with a specific exercise
 
-* If a particular exercise is giving you grief, ask for help in our [online support chat][chat].
+- If a particular exercise is giving you grief, ask for help in our [online support chat][chat].
 - If there's a defect in the...
   - **instructions** of the exercise, you can make a difference by [filing a bug report][filing-bug] in the [exercism/problem-specifications][common-new-issue] repository.
     - if you have the time and the desire, you can help *even more* by [fixing it][ref-help-track].
@@ -77,12 +77,12 @@ We're currently working with professional user experience designers on rethinkin
 
 Current specific discussions:
 
-* Overall user experience with the CLI: [exercism/discussions#129][discussion-cli-ux].
+- Overall user experience with the CLI: [exercism/discussions#129][discussion-cli-ux].
 
 Here are some helpful starter searches in the two repositories that contain ideas about the CLI:
 
-* [exercism/cli][cli-issues]
-* [exercism/discussions?cli][discussions-cli]
+- [exercism/cli][cli-issues]
+- [exercism/discussions?cli][discussions-cli]
 
 If the idea isn't being discussed yet, kick it off in the [exercism/cli][cli-new-issue].
 
@@ -124,10 +124,10 @@ New exercise ideas are definitely welcome!  Here's how to ensure the idea lands 
 
 ### I would like to help; I can / want to get better at technical writing and organization
 
-- Find discussions about ways we'd like to improve our documentation: [exercism/discussions?documentation][discussions-docs]
-- Check out the [open issues][docs-issues] in the docs repository
+- Find discussions about ways we'd like to improve our documentation: [exercism/discussions?documentation][discussions-docs].
+- Check out the [open issues][docs-issues] in the docs repository.
 - Help make the instructions of an exercise more clear, interesting and/or engaging by [tweaking its README.md][how-to-exercise-readmes].
-- Issues across all of Exercism looking for help with documentation: [exercism?documentation][org-issues-docs]
+- Issues across all of Exercism looking for help with documentation: [exercism?documentation][org-issues-docs].
 
 ### I would like to help; I am fluent in / want to get better at a particular programming language
 
@@ -160,9 +160,9 @@ To hear about it when we're ready for input, feedback, thoughts, and opinions, w
 
 One of the more subtle but important parts of the Exercism experience is our CLI; it's written in Go.
 
-- Setup your local development environment for the CLI: [exercism/cli][cli-repo]
--  Locate a feature/bug to work on: [exercism/cli][cli-issues]
--  Work the issue: [the contribution workflow][contribution-workflow].
+- Setup your local development environment for the CLI: [exercism/cli][cli-repo].
+- Locate a feature/bug to work on: [exercism/cli][cli-issues].
+- Work the issue: [the contribution workflow][contribution-workflow].
 
 ### I would like to help; I know / want to get better at web design
 
@@ -173,8 +173,8 @@ To hear about it when we're ready for input, feedback, thoughts, and opinions, w
 
 Do you like mentoring people?
 
-* Hang out in the support chat [support chat][chat], or
-* submit an exercise so you can [give feedback to people who have submitted it, too][activity-stream].
+- Hang out in the support chat [support chat][chat], or
+- submit an exercise so you can [give feedback to people who have submitted it, too][activity-stream].
 
 [chat]: https://gitter.im/exercism/support
 [filing-bug]: /contributing/filing-a-bug-report.md

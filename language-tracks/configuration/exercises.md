@@ -20,6 +20,8 @@ All other values can be updated.
 
 This must be unique to this particular exercise implementation across all of Exercism's tracks, and must never change.
 [Configlet][configlet] has a `uuid` subcommand (`configlet uuid`), but you can use any UUID generator tool to create it.
+If you do use configlet make sure the configlet version agrees with the [latest configlet version](https://github.com/exercism/configlet/releases/latest).
+The UUID should be of the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
 
 ### Slug
 

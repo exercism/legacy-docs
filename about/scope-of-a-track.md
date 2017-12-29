@@ -11,7 +11,7 @@ There are a few key ideas here:
 Familiarity with third party libraries is notably absent from this list.
 As is the ability to write scalable, production-worthy code and solve real-world problems.
 
-There are plenty of resources available to do these things—but it's particularly challenging to make use of them without fluency in the basics.
+There are plenty of resources available that cover more advanced topics, but it's challenging to make use of them without fluency in the basics.
 
 ## What makes a good track?
 

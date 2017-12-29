@@ -1,30 +1,62 @@
-# What doesn't make a good track.
+# The scope of a track
 
-[what-exercism-is-and-isn-t]: https://tinyletter.com/exercism/letters/what-exercism-is-and-isn-t
+Exercism's sweet spot is to bridge that awkward gap between an effortful "hello world" and being able to fluently express simple ideas idiomatically using the basic features of a language along with its standard library.
 
-​There was an interesting conversation recently about what sort of exercises make sense for Exercism to include.
+There are a few key ideas here:
 
-> I'd like to be able to give people a nice resource where they can learn introductory image analysis with Python and scikit-image, but in general it would be nice to be able to support any third party library or skillset. I feel that just adding some exercises into the general Python problem set would be problematic since having external libraries is its own can of worms, and you'd also get a huge explosion of exercises once everyone adds their favorite library.
-[—Jim Rybarski](https://github.com/jimrybarski), [exercism/exercism.io#3113](https://github.com/exercism/exercism.io/issues/3113)
+* **basics:** basic syntax, basic language features, commonly used standard library packages or modules
+* **fluency:** ease and familiarity, not having to think about syntax
+* **idioms:** using the conventions that are common for the language
 
-This sparked a very lively discussion with lots of excellent points about what the purpose of Exercism is, the value and danger of relying on 3rd party libraries, and whether or not the introduction of this type of Exercise would change the platform so much that it would be unrecognizable. It's a great discussion, and you should go read it.
+Familiarity with third party libraries is notably absent from this list.
+As is the ability to write scalable, production-worthy code and solve real-world problems.
 
-The question of what should be included or excluded on Exercism has come up before. Brian Hicks wondered whether or not we should have a track for JSON in [exercism/discussions#84](https://github.com/exercism/discussions/issues/84), after observing that people do some funny things with it. I've received email on a couple of occasions, asking whether or not we could add HTML and/or CSS tracks.
+There are plenty of resources available that cover more advanced topics, but it's challenging to make use of them without fluency in the basics.
 
-Understanding what Exercism is really about has been one of the most difficult things about the project. When I started it back in June of 2013 I didn't really have a very clear idea. When someone suggested something I would get some sort of gut feeling about whether I thought it fit or not, but I was unable to express clearly why it seemed right or wrong.
+## What makes a good track?
 
-That makes it really difficult to explain, and it also makes it harder to discuss. It makes it harder to close issues even when the suggestion seems wrong, because I can't give a coherent explanation, which means that if I close it, it seems like I'm just closing it on a whim, or because I'm The Boss or something. That is not a great way to run a project. It leaves people frustrated, dissatisfied, and feeling like they've not been heard.
+A good track targets a programming language.
+It provides lots of small exercises, each of which is self-contained.
 
-Over the past few months I've started to gain an understanding about what Exercism aims to be.
+It covers all the language features that are used in the normal day-to-day work of a programmer writing code in that language.
+It provides opportunities to discover and make use of the most commonly used packages or modules in the standard library.
 
-Exercism is based on the idea that you can develop a high degree of fluency even at a low level of proficiency. Read more about the [Goal of Exercism](/about/goal-of-exercism.md).
+## What is out of scope?
 
-Having used Exercism you should feel like you can express yourself without the syntax or standard library getting in your way. Your code should look and feel like that of a native. But that's it. This doesn't touch the real world at all.
+There are many interesting topics and exercises that _could_ be added to Exercism, but that probably shouldn't.
 
-You'll still need to go figure out how to write code that solves real-world problems. You'll need to learn how to navigate large, real-world codebases, and integrate with real-world technologies.
+### Specialty libraries and techniques
 
-And that's OK. Because the world is full of tutorials and blog posts and example code and codebases that will let you learn those things. If you're fluent in the basics, it will be so much easier to make use of those other resources.
+In [exercism/exercism.io#3113](https://github.com/exercism/exercism.io/issues/3113) [Jim Rybarski](https://github.com/jimrybarski) brought up the idea of adding exercises that teach introductory image analysis with Python and `scikit-image`.
 
-And maybe you'll discover that there are some resources that are missing—such as how to learn introductory image analysis with Python and scikit-image, as suggested in the "teaching libraries on Exercism" discussion.
+Image analysis is a great topic, and the `scikit-image` library is a useful library, but it is not targeting fluency in basic Python, and is therefore a great example of something which is out of scope for Exercism.
 
-That's an excellent opportunity to dig into the topic and create the missing guide or design the missing exercises. They might stand alone as a great resource, or they might grow into something bigger, something that you can't imagine right now, as you scratch the little itch.
+### Not programming languages
+
+Early on someone requested that we add a track for math proofs.
+
+A project that provides lots of little exercises helping people get better at math proofs would be really cool—it just doesn't fit within the framework of Exercism.
+
+### Not _really_ programming languages
+
+In [exercism/discussions#84](https://github.com/exercism/discussions/issues/84) Brian Hicks wondered whether or not we should have a track for JSON after observing that people do some funny things with it.
+
+JSON is markup, not a programming language.
+People absolutely do funny things with it—and it's a worthy topic for teaching best practices, but it's not a great fit for an Exercism track.
+
+The same goes for HTML and CSS, which have also been requested.
+
+### Big, real-world-sized problems
+
+While it would be undeniably useful to practice navigating in large codebases and refactoring extremely complex code, adding these sorts of exercises would stretch the format of Exercism beyond the breaking point.
+
+## What does this mean for existing tracks?
+
+An Exercism track can be improved by considering several different questions:
+
+* Are there language features that are not (or are only sparsely) covered by exercises?
+* Are there parts of the standard library that are unlikely to be used in solutions to existing exercises?
+
+Additionally, it's worth considering that we're targeting fluency.
+We're not just trying to introduce a topic, we want people to have ample opportunity to practice and play around with it.
+A good track will often provide numerous exercises that all touch on similar areas.

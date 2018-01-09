@@ -96,7 +96,7 @@ Having said that, each track is free to write a more specific description if the
 
 ### Track Hints
 
-The `$TRACK_ROOT/config/exercise-readme-inserts.md` gets included in _all_ the exercise READMEs for the track, and mustn't refer to specific problems or files. It should contain helpful, generic information about solving an exercism problem in the language of the track, for example hints about how to run the tests or where to get help.
+The `$TRACK_ROOT/config/exercise-readme-insert.md` gets included in _all_ the exercise READMEs for the track, and mustn't refer to specific problems or files. It should contain helpful, generic information about solving an exercism problem in the language of the track, for example hints about how to run the tests or where to get help.
 
 ### Exercise Hints
 

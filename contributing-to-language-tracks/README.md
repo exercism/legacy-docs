@@ -145,5 +145,5 @@ Sometimes an exercise is in the right place in the sequence, but it's really
 hard to figure out how to solve it anyway.
 
 In this case consider whether there's a blog post or some documentation that
-you could point people to, and add it to `HINTS.md` in the exercise directory
+you could point people to, and add it to `$ROOT/exercises/$SLUG/.meta/hints.md` in the exercise directory
 in the language track. If the file doesn't exist, create a new one.

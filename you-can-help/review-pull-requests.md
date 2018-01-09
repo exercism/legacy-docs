@@ -60,7 +60,7 @@ If there is no automated checking, then you should also verify:
 - Will the test failures make sense to the person trying to solve the problem?
 - Does the exercise pull in unnecessary dependencies?
 - Have all but the first test been skipped? (Only for tracks that use `pending` or `skip` or `ignore` directives)
-- If the exercise introduced difficult language features, is there a `HINTS.md` file that points to some good documentation about it?
+- If the exercise introduced difficult language features, is there a `hints.md` file that points to some good documentation about it?
 - Do the tests use the data from the [`canonical-data.json`](https://github.com/exercism/problem-specifications#test-data-format-canonical-datajson) file (if it exists)? Are any of the deviations from `canonical-data.json` generally useful to other language tracks? _If so, consider submitting them back to the problem-specifications repository._
 
 There is usually no right answer, and sometimes the best answer is "I don't know, we'll see."

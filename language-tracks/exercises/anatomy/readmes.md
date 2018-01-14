@@ -45,6 +45,8 @@ There are a number of values available in the template:
 
 - `.Spec.Slug` - the exercise's slug
 - `.Spec.Name` - the wordified slug
+- `.Spec.MixedCaseName` - the name converted to mixed case, e.g. _Hello World_ becomes `HelloWorld`
+- `.Spec.SnakeCaseName` - the name converted to snake case, e.g. _Hello World_ becomes `hello_world`
 - `.Spec.Description` - the contents of the optional `$TRACK_ROOT/exercises/$SLUG/.meta/description.md` file
 - `.Spec.Source` - a textual description of where the idea for the exercise came from (optional)
 - `.Spec.SourceURL` - a link to something about the source (optional)

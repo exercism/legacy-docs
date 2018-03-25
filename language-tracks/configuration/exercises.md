@@ -46,8 +46,12 @@ For more about why we've structured the tracks in this way, read the [Progressio
 ### Unlocked by
 
 Any exercise that is not a core exercise is optional.
-All optional exercises should be unlocked by one of the core exercises.
+Almost all optional exercises should be unlocked by one of the core exercises (see [bonus](#user-content-bonus) below for exceptions).
 Set the value of `unlocked_by` to the slug of the core exercise that is the prerequisite for getting access to this exercise.
+
+#### Bonus
+
+Tracks may start with a few _bonus exercises_: unlocked alternatives to the initial track starting exercise. These alternatives will give users some means to continue should they wish to divert from the main track early in the progression, if they hit a [blocking scenario][track-blocking-progression] for example. Bonus exercises will be identified as non-core: `core: false` and out of the unlock sequence: `unlocked-by: null`. 
 
 ### Difficulty
 
@@ -75,3 +79,4 @@ All other fields in deprecated exercises can be deleted.
 
 [configlet]: /language-tracks/configuration/configlet.md
 [topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt
+[track-blocking-progression]: https://github.com/exercism/v2-feedback/issues/36

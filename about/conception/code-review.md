@@ -9,7 +9,7 @@ As such, one of the key requirements for Exercism's success is how to ensure tha
 - Friendly
 - Respectful
 - Pragmatic
-- Provided with a deep knowledge of the language
+- Provided with an adequate knowledge of the language
 - Provided with an understanding of the exercise
 
 Exercism is traditionally built around community-based moderation where anyone can feedback on another's exercise. One of our key areas of discussion has been to establish if that is a model that will provide feedback that meets with the goals listed about, or if the giving of feedback should be limited to a subset of users who are trained in this skill. In this document we describe these users as "mentors".

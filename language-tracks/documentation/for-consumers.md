@@ -2,6 +2,27 @@
 
 The user-facing documentation lives in the `docs/` directory in the language track repository.
 
+## About
+
+```
+docs/ABOUT.md
+```
+
+The about page should be a short, friendly, colloquial introduction to the language. The intent is to entice people to try it out.
+
+### Formatting guidelines for ABOUT.md
+
+We're optimizing the _About_ to work well on the track's landing page. In order to do this, we're adding some restrictions on the markdown allowed. In short, `ABOUT.md` should only use:
+
+* Bold
+* Italics
+* Links
+* Bullet lists
+* Number lists
+* Each sentence should be on its own line
+* Paragraphs separated by an empty line
+* Explicit <br/> used to split a paragraph into lines without spacing between them (discouraged).
+
 ## Installation and setup
 
 ```

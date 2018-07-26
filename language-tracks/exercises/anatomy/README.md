@@ -1,25 +1,17 @@
-# Anatomy of an Exercise
+# Anatomy of an exercise
 
-TODO: expand on notes below.
+Exercises on Exercism typically are an implementation of an existing problem, as described in the [problem-specifications](https://github.com/exercism/problem-specifications) repository.
 
-## README
+Each exercise must be implemented in a directory within the `./exercises` which can be found in the root of the repository.
 
-TODO
+The directory must be named with kebab-case (lowercase, hyphenated).
+All the files within it can be named to match the conventions of the language.
 
-## Test Suite
+In order to integrate with the command-line client and the website, a few things need to be in place:
 
-TODO
+- an [exercise README](language-tracks/exercises/anatomy/readmes.md)
+- a [test suite](language-tracks/exercises/anatomy/test-suites.md)
+- a [reference solution](language-tracks/exercises/anatomy/reference-solution.md)
 
-## Supporting Files
-
-TODO (boilerplate, header files, etc)
-
-## Reference Solution
-
-The reference solution is named something with `example` or `Example` in the path.
-
-The solution does not need to be particularly great code, it is only used to verify
-that the exercise is coherent.
-
-If you change the test suite, then make sure the reference solution is fixed
-to pass the updated tests.
+If the exercise needs any supporting files such as boilerplate, header files, etc, these can be added in the exercise directory tree.
+They will automatically be delivered along with the test suite and README.

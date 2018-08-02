@@ -9,9 +9,9 @@ All the files within it can be named to match the conventions of the language.
 
 In order to integrate with the command-line client and the website, a few things need to be in place:
 
-- an [exercise README](language-tracks/exercises/anatomy/readmes.md)
-- a [test suite](language-tracks/exercises/anatomy/test-suites.md)
-- a [reference solution](language-tracks/exercises/anatomy/reference-solution.md)
+- an [exercise README](readmes.md)
+- a [test suite](test-suites.md)
+- a [reference solution](reference-solution.md)
 
 If the exercise needs any supporting files such as boilerplate, header files, etc, these can be added in the exercise directory tree.
 They will automatically be delivered along with the test suite and README.

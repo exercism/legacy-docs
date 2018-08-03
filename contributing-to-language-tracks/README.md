@@ -15,59 +15,60 @@ The Exercism language tracks are a great way to get involved in:
 - A programming language you're curious about.
 - Open source (in general).
 
+_If you haven't used Exercism before, then it could be worth submitting solutions to a couple of exercises._
+_It doesn't matter which language track you submit to, it's just to get a feel for what a language track consists of._
+
+## About the language tracks
+
 Each language track lives in its own repository, which means that you can contribute
 to a track without having to know anything about the rest of the Exercism ecosystem.
 
 Also, each track is focused, containing implementations of trivial exercises and the tools
 to make development easier, so there's no big codebase to get acquainted with.
 
-## Submit a Couple of Solutions
+You can see a list of all the available tracks by looking at the [exercism-track topic on the Exercism org](https://github.com/search?q=topic%3Aexercism-track+org%3Aexercism&type=Repositories) on GitHub.
 
-If you haven't used Exercism before, then we recommend first submitting solutions to a couple of
-exercises. It doesn't matter which language track you submit to, it's just to get a feel
-for what a language track consists of.
+Some tracks are active on the website (see https://exercism.io/#explore-languages if logged out, or http://exercism.io/tracks regardless of whether you're logged in). Tracks that are not active on the site are either in progress, or someone was optimistic but it never got any traction and they didn't get it to the point where it could launch.
 
-## Watch The Track Repository
-
-If you haven't picked a language you want to contribute to yet, check out the list of [language tracks
-and their respective repositories][repositories].
-
-Then go to the repository for the language you've chosen, click the _Watch_ button, and select _Watching_.
-This will notify you of any new issues, pull requests, or comments in the repository, which is a great way
-of getting acquainted with the people involved and the issues that tend to come up.
-
-## Orient Yourself
-
-Read the README, and look through the open issues and pull requests, and get a feel for what's going on.
-
-## Contribute!
+## Ways to contribute
 
 There are a number of ways to contribute to a track. All of them are sorely needed, and greatly appreciated!
 
-### Triaging Issues
+First, orient yourself.
+Read the README, and look through the open issues and pull requests, and get a feel for what's going on.
 
-A great issue is detailed and actionable. When they're not, you can help ask the questions to make them so.
+You can pick up an open issue, or help with:
 
-For more detailed suggestions about things to keep in mind when triaging, check out [this documentation][triaging-issues].
+* Improving product-facing copy/documentation
+* Improving contributor-facing documentation and tooling
+* Improving existing exercises
+* Adding more exercises
+* Triaging issues
+* Review pull requests
 
-### Reviewing Pull Requests
+### Improve product-facing copy/documentation
 
-We always need more eyeballs on pull requests. On language tracks most pull requests tend to be related to
-the exercises themselves, and we have [detailed documentation][reviewing-prs] that should help
-you get started with code reviews.
+The main introduction page for a track can be seen on the website by going to https://exercism.io/tracks/$TRACK_ID.
 
-### Porting an Exercise
+For example, here's the [R track](https://exercism.io/tracks/r).
 
-The easiest way to add a new exercise is to find an exercise that has already been implemented in another language
-track, and port it over to your target language.
+There are three pieces of content that come from the track repository:
 
-We've got [a guide][porting] that walks you through how to find an exercise to port, and the things to
-keep in mind when implementing it.
+- the blurb, which is right under that track name in the header. It lives in `config.json` as a top-level key "blurb".
+- the "about" section, which is in `docs/ABOUT.md`
+- the code example, which is in `docs/SNIPPET.txt`
 
-### Improving the Contributing Documentation
+We also have guides that are linked to from each exercise page:
 
-It's not always obvious how to get started contributing to a language track. As you get involved, help improve the
-README in the track repository.
+- Installing the language (`docs/INSTALLATION.md`)
+- Running the tests (`docs/TESTS.md`)
+- Learning the language (`docs/LEARNING.md`)
+- Useful language resources (`docs/RESOURCES.md`)
+
+### Improve contributor-facing documentation
+
+It's not always obvious how to get started contributing to a language track.
+As you get involved, help improve the README in the track repository.
 
 * Are there undocumented dependencies?
 * How do you run the tests? Is there a way to run all the tests for all the exercises?
@@ -75,12 +76,9 @@ README in the track repository.
 * Is there any tooling that we're using? Linters?
 * Is there continuous integration? Are there any gotchas?
 
-## Improving the Curriculum
+### Improve existing exercises
 
-As you solve exercises on the site, pay attention to what you like and dislike
-about the exercises.
-
-### Improving Exercise READMEs
+#### Exercise READMEs
 
 If the README is ambiguous or confusing, then there's almost certainly
 something we can do to clarify.
@@ -89,7 +87,7 @@ Or maybe you found a typo (you wouldn't be the first).
 
 The READMEs are generated, and all the details are explained [here][fixing-readmes].
 
-### Changing Exercise Test Suites
+#### Test Suites
 
 * Did the test suite force you towards a certain solution? (It shouldn't.)
 * Did you come across a solution that passed the tests, but that had a bug?
@@ -119,25 +117,18 @@ issue in [problem-specifications][] to:
   exercise using the [blazon][] tool (which automates the tedious parts).
   More about that [here][blazon-process].
 
-### Reordering Exercises
+#### Exercise metadata
+
+Exercises have topics and a difficulty score in the `config.json` file in the track.
+These are used to help filter exercises on the site.
+
+#### Reordering Exercises
 
 We don't have a formal process for deciding how the exercises should be
-ordered, and often as we add more exercises, we get some less-than-optimal
-sequences of exercises.
+ordered.  We also don't have any particular guidelines yet, about which
+optional exercises should be unlocked by which core exercises.
 
-As you work through the exercises in the track, notice whether an exercise
-seems vastly more difficult than the previous one, or much easier, or boring.
-
-The order is decided by the `exercises` array in `config.json`.
-
-* If it's **too easy**, move it higher up in the array.
-* If it's **too hard**, move it further down in the array.
-* If two exercises are **too similar** then move one of them so that there are
-  some different exercises between them.
-
-We can also deprecate an exercise by removing it from the `exercises` array
-and adding the slug to the `deprecated` key, which is also in the
-`config.json` file.
+The order of the core exercises is decided by the `exercises` array in `config.json`.
 
 ### Adding Hints
 
@@ -147,3 +138,31 @@ hard to figure out how to solve it anyway.
 In this case consider whether there's a blog post or some documentation that
 you could point people to, and add it to `$ROOT/exercises/$SLUG/.meta/hints.md` in the exercise directory
 in the language track. If the file doesn't exist, create a new one.
+
+### Add new exercises
+
+The easiest way to add a new exercise is to find an exercise that has already been implemented in another language
+track, and port it over to your target language.
+
+We've got [a guide][porting] that walks you through how to find an exercise to port, and the things to
+keep in mind when implementing it.
+
+### Triage issues
+
+A great issue is detailed and actionable.
+When they're not, you can help ask the questions to make them so.
+For more detailed suggestions about things to keep in mind when triaging, check out [this documentation][triaging-issues].
+
+### Review pull requests
+
+We always need more eyeballs on pull requests. On language tracks most pull requests tend to be related to
+the exercises themselves, and we have [detailed documentation][reviewing-prs] that should help
+you get started with code reviews.
+
+## Want to help keep an eye on things?
+
+We can always use an extra pair of eyes.
+Go to the repository for the language you've chosen, click the _Watch_ button, and select _Watching_.
+This will notify you of any new issues, pull requests, or comments in the repository, which is a great way
+of getting acquainted with the people involved and the issues that tend to come up.
+

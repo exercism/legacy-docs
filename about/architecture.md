@@ -24,7 +24,7 @@ You can read more about the CLI in the corresponding GitHub [repository](https:/
 
 ### The API
 
-Exercism provides an [API](https://github.com/exercism/x-api) to serve the exercises to people using the command-line client. The API is also consumed by the Exercism website.
+The API that services the command-line client lives in the [Exercism website repository](https://github.com/exercism/website).
 
 ### Trackler
 

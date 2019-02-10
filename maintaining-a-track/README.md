@@ -87,7 +87,7 @@ This will notify you of all new issues, pull requests, and comments.
 In addition to the language track repository itself, you may also want to watch:
 
 - the [exercism/problem-specifications](http://github.com/exercism/problem-specifications) repository which contains all of the exercise descriptions and metadata. Many discussions about improvements to the exercises happen here.
-- the [exercism/discussions](http://github.com/exercism/discussions) repository where a lot of high-level discussions about Exercism itself happen (roadmap, direction, ideas, conundrums).
+- the [exercism/exercism](https://github.com/exercism/exercism/issues) repository where a lot of high-level discussions about Exercism itself happen (roadmap, direction, ideas, conundrums).
 
 ### Perform Common Tasks
 

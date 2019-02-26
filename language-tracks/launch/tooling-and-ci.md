@@ -1,34 +1,49 @@
 # Tooling and continuous integration
 
-Since reference solutions tend to not be named what the code expects, and they don't live where the test suite expects to find them, we often need to write a bit of extra tooling to make it easy to work on the exercises as a maintainer or contributor.
+We typically implement a track test suite that can run both locally and on Travis CI.
+The track test suite should verify that each exercise makes sense, by running the exercise tests against the example solution.
 
-There are two use cases that we want to account for:
+**Definition of terms**
 
-- make it easy to run all the exercises against their respective reference solutions with a single command
-- make it easy to run a single exercise test suite against it's reference solution for a faster feedback cycle when working on a particular exercise
+- **exercise test suite**: the test suite that is delivered to Exercism users as part of an Exercism exercise
+- **track test suite**: the test suite that helps ensure that all of the exercise test suites in a language track are solvable
 
-You might find that you need to copy some files around to get everything set up relative to each other.
-Sometimes your script will need to edit something in the test suite to get it to find or recognize the reference solution.
+**Background**
 
-Either way, you don't want to move things around or edit things in place within the repository.
-That's a recipe for accidentally committing the changes.
+When implementing an exercise test suite, we want to provide a good user experience for the people writing a solution to the exercise. People should not be confused or overwhelmed.
 
-If you do need to move, rename, or edit, your best bet is to write a script that copies everything into a temporary directory, and does it there.
-Then you can just delete the temporary directory instead of worrying about putting things back the way they were.
+In most Exercism language tracks, we simulate Test-Driven Development (TDD) by implementing the tests in order of increasing complexity. We try to ensure that each test either
 
-## Continuous integration
+- helps triangulate a solution to be more generic, or
+- requires new functionality incrementally.
 
-By default we use Travis CI.
-If we have Windows-specific stuff we'll use AppVeyor, and for Mac-specific stuff we'll use Circle CI.
-We're not tied to any of these choices, it's just the way things have worked out.
-If you want to use some other service, that's fine.
+Many test frameworks will randomize the order of the tests when running them. This is an excellent practice, which helps ensure that subsequent tests are not dependent on side effects from earlier tests. However, in order to simulate TDD we want tests to run *in the order that they are defined*, and we want them to *fail fast*, that is to say, as soon as the test suite encounters a failure, we want the execution to stop. This ensures that the person implementing the solution sees only one error or failure message at a time, unless they make a change which causes prior tests to fail.
 
-CI should do a few things:
+This is the same experience that they would get if they were implementing each new test themselves.
 
-- run the track-level linting to make sure that the track is configured correctly
-- run the full test suite for all the exercises to make sure that all the exercises make sense
+Most testing frameworks do not have the necessary configuration options to get this behavior directly, but they often do have a way of marking tests as _skipped_ or _pending_. The mechanism for this will vary from language to language and from test framework to test framework.
 
-For a couple of examples, check out the PHP track, which uses [make][], and the Ruby track which uses [rake][].
+Whatever the mechanism—functions, methods, annotations, directives, commenting out tests, or some other approach—these are changes made directly to the test file. The person solving the exercise will need to edit the test file in order to "activate" each subsequent test.
 
-[make]: https://github.com/exercism/php/blob/master/Makefile
-[rake]: https://github.com/exercism/ruby/blob/master/Rakefile
+Any tests that are marked as skipped will not be verified by the track test suite unless special care is taken.
+
+Additionally, in some programming languages, the name of the file containing the solution is hard-coded in the test suite, and the example solution is not named in the way that we expect people to name their files.
+
+We will need to temporarily (and programmatically) edit the exercise test suites to ensure that all of their tests are active. We may also need to rename the example solution file(s) in order for the exercise test suite to run against it.
+
+**Avoiding accidental git check-ins**
+
+It's important that if we rewrite files in any way during a test run, that these changes do not accidentally get checked in to the git repository.
+
+Therefore, many language tracks write the track test suite in such a way that it _copies_ the exercise to a temporary location outside of the git repository before editing or rewriting the exercise files during a test run.
+
+**Working around long-running track test suites**
+
+Usually as people are developing the track, they're focused on a single exercise. If running the entire track test suite against all of the exercises takes a long time, it is often worth making it possible to verify just one exercise at a time.
+
+**Example build file**
+
+The PHP track has created a [Makefile][make]. The Ruby track uses Rake, which is a tool written in Ruby, allowing the track maintainers to write custom code in the language of the track to customize the build with a [Rakefile][rake].
+
+[make]: https://github.com/exercism/xphp/blob/master/Makefile
+[rake]: https://github.com/exercism/xruby/blob/master/Rakefile

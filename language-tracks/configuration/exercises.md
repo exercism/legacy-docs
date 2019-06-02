@@ -69,13 +69,15 @@ Take a look at the (non-exhaustive) [topics list][topics] for suggestions of top
 
 ## Deprecating exercises
 
-Exercises can be deprecated, in which case they must have the following:
+Deleting an exercise is a destructive action it would delete all users' solutions to that exercise. Instead, we allow exercises to be deprecated, users who have completed the exercise can access their existing solutions, those who have not will not see or be able to start the exercise.
+
+Deprecated exercises must have the following set in `config.json`:
 
 - **uuid**
 - **slug**
 - **deprecated** (boolean, true)
 
-All other fields in deprecated exercises can be deleted.
+All other fields in deperecated exercises should remain as is.
 
 [configlet]: /language-tracks/configuration/configlet.md
 [topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt

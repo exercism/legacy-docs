@@ -69,7 +69,9 @@ Take a look at the (non-exhaustive) [topics list][topics] for suggestions of top
 
 ## Order of exercises
 
-Exercises that are not part of the core track (`"core": false`) should be added to `config.json` on a line after the last core exercise (i.e. all core exercises are located at the top of the file, above all side exercises).
+**Core Exercises**: Core exercises (`"core": true`) are unlocked in the order that they appear in `config.json`. For example, if Exercise A is listed before Exercise B and both are core exercises, then Exercise B would be unlocked upon completion of Exercise A.
+
+**Side Exercises**: Exercises that are not part of the core track (`"core": false`) may appear in any order so long as they appear on a line after the last core exercise in `config.json` (i.e. all core exercises are located at the top of the file, above all side exercises).
 
 ## Deprecating exercises
 

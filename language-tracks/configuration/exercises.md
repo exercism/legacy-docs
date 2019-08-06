@@ -67,6 +67,10 @@ We show the topics for an exercise on the website.
 This lets people optimize the learning experience to their own interests—skipping topics that they are not interested in, or that they already know a lot about, and doing deeper dives into topics that they're curious about.
 Take a look at the (non-exhaustive) [topics list][topics] for suggestions of topics to add.
 
+## Order of exercises
+
+Exercises that are not part of the core track (`"core": false`) should be added to `config.json` on a line after the last core exercise (i.e. all core exercises are located at the top of the file, above all side exercises).
+
 ## Deprecating exercises
 
 Deleting an exercise is a destructive action it would delete all users' solutions to that exercise. Instead, we allow exercises to be deprecated, users who have completed the exercise can access their existing solutions, those who have not will not see or be able to start the exercise.

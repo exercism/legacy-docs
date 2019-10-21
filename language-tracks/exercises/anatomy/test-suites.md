@@ -38,4 +38,4 @@ Feel free to implement a test generator for your track if you feel it would aid 
 
 The specifications in `canonical-data.json` are the strongly recommended defaults, but if you have a good reason (language idioms, etc) then don't hesitate to deviate from them.
 
-If there is no `canonical-data.json` file for the exercise then we recommend using http://exercism.io/languages/vimscript/todo (replace vimscript with your track) to find other implementing tracks.
+If there is no `canonical-data.json` file for the exercise then we recommend using https://tracks.exercism.io/ to find other tracks that have implemented the exercise.

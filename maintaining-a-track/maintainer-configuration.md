@@ -28,11 +28,7 @@ Being featured on the Exercism website is entirely optional, and we're generatin
 ## Alumnus
 
 When you decide to move on, submit and merge a PR that sets the `alumnus` key
-for your maintainer entry to one of the following strings:
-`alumnum`, `alumnus` or `alumna`.
-This is the string that will appear with your bio on the website. These terms
-have been chosen to enable you to choose the one you feel most appropriate for
-your gender.
+for your maintainer entry to false.
 
 ## JSON Format
 
@@ -42,7 +38,7 @@ The format for each entry is:
 {
   "github_username": "iHiD",
   "show_on_website": false,
-  "alumnus": null,
+  "alumnus": false,
   "name": "Jeremy Walker",
   "bio": "A friendly, detailed description of your background/interest in the language, to go on the Exercism track page.",
   "link_text": "My Website",
@@ -58,7 +54,7 @@ If `show_on_website` is missing or `false` then the maintainer will not be featu
 
 Optional fields:
 
-- `alumnus`: defaults to null if absent.
+- `alumnus`: defaults to `false` if absent.
 - `avatar_url`: defaults to your GitHub avatar if `null` or absent.
 - `name`: defaults to whatever your public display name on GitHub is. If you have not filled in this field, and there is no name defined on your GitHub profile, we will use your GitHub username as your display name.
 - `bio`: if null or absent, it defaults to your public GitHub bio (note that I don't think this is a great default, I would much rather have a bio that is specific to the track). If this is an empty string we will not show a bio at all.

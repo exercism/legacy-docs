@@ -106,3 +106,4 @@ Anything that is specific to just one exercise, should be added to the `$TRACK_R
 
 [problem-specifications]: https://github.com/exercism/problem-specifications/tree/master/exercises
 [configlet]: https://github.com/exercism/configlet
+[text-template]: https://golang.org/pkg/text/template/

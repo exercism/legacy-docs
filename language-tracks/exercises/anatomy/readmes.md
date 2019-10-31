@@ -74,12 +74,12 @@ The default contents of `$TRACK_ROOT/config/exercise-readme.go.tmpl` is below.
 
 {{ .Spec.Description -}}
 {{- with .Hints }}
-{{ . }}
+{{ . -}}
 {{ end }}
 {{- with .TrackInsert }}
-{{ . }}
+{{ . -}}
 {{ end }}
-{{- with .Spec.Credits -}}
+{{- with .Spec.Credits }}
 ## Source
 
 {{ . }}

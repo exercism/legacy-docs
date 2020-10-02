@@ -15,7 +15,7 @@ The Exercism language tracks are a great way to get involved in:
 - A programming language you're curious about.
 - Open source (in general).
 
-_If you haven't used Exercism before, then it could be worth submitting solutions to a couple of exercises._
+_If you haven't used Exercism before, then it could be worth submitting solution to a couple of exercises._
 _It doesn't matter which language track you submit to, it's just to get a feel for what a language track consists of._
 
 ## About the language tracks

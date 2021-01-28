@@ -1,3 +1,5 @@
+**This repository is deprecated and its content is being moved into the new [exercism/docs](https://github.com/exercism/docs) repo in preperation for the launch of Exercism v3. It will be archived once this process is completed.**
+
 # Documentation
 
 _Project-wide documentation for Exercism._

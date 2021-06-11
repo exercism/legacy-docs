@@ -1,0 +1,36 @@
+# ----------------------------------------------------------------------------------------- #
+# These are the repository-specific labels that augment the Exercise-wide labels defined in #
+# https://github.com/exercism/org-wide-files/blob/main/global-files/.github/labels.yml.     #
+# ----------------------------------------------------------------------------------------- #
+
+- name: "good first patch"
+  description: ""
+  color: "43C59E"
+
+- name: "invalid"
+  description: ""
+  color: "fef2c0"
+
+- name: "spam"
+  description: ""
+  color: "08787a"
+
+- name: "status/claimed"
+  description: ""
+  color: "CEFF1A"
+
+- name: "status/no-longer-relevant"
+  description: ""
+  color: "CEFF1A"
+
+- name: "status/on-hold"
+  description: ""
+  color: "CEFF1A"
+
+- name: "status/pr-in-progress"
+  description: ""
+  color: "CEFF1A"
+
+- name: "status/up-for-grabs"
+  description: ""
+  color: "CEFF1A"
